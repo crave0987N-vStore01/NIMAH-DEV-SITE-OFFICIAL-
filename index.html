@@ -1,0 +1,3367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+  <meta name="theme-color" content="#020617">
+  <meta name="description" content="NIMAH DEV STUDIO - Professional website development, mobile app development, AI chatbots, and custom software solutions in Sri Lanka.">
+  <meta name="keywords" content="NIMAH DEV STUDIO, web development Sri Lanka, website development Sri Lanka, mobile app development Sri Lanka, AI chatbot development, custom software development, e-commerce website Sri Lanka, business website design, software development studio Sri Lanka, booking system development, school management system, admin dashboard development, custom website Sri Lanka, freelance web developer Sri Lanka, affordable website developer Sri Lanka, best web developer Sri Lanka, portfolio website design, hire web developer Sri Lanka, Firebase website developer, responsive website design Sri Lanka">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="NIMAH DEV STUDIO">
+  <link rel="canonical" href="https://nimahdevstudio.com/">
+  <link rel="icon" type="image/jpeg" href="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg">
+  <link rel="icon" sizes="32x32" href="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg">
+  <link rel="icon" sizes="16x16" href="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg">
+  <link rel="shortcut icon" href="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg">
+  <title>NIMAH DEV STUDIO | Future Digital Experiences</title>
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NIMAH DEV STUDIO">
+  <meta property="og:title" content="NIMAH DEV STUDIO | Future Digital Experiences">
+  <meta property="og:description" content="Professional websites, mobile applications, AI chatbots, and custom digital solutions engineered for tomorrow.">
+  <meta property="og:image" content="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg">
+  <meta property="og:url" content="https://nimahdevstudio.com/">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="NIMAH DEV STUDIO | Future Digital Experiences">
+  <meta name="twitter:description" content="Professional websites, mobile applications, AI chatbots, and custom digital solutions engineered for tomorrow.">
+  <meta name="twitter:image" content="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "NIMAH DEV STUDIO",
+    "description": "Software development studio offering website development, mobile app development, AI chatbots, and custom digital solutions.",
+    "image": "https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg",
+    "url": "https://nimahdevstudio.com/",
+    "priceRange": "$$",
+    "areaServed": "LK"
+  }
+  </script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    :root {
+      --bg-deep: #020617;
+      --bg-card: #0f172a;
+      --bg-elevated: #1e293b;
+      --accent: #3b82f6;
+      --accent-light: #60a5fa;
+      --accent-glow: #2563eb;
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --border-subtle: rgba(59, 130, 246, 0.12);
+      --border-active: rgba(59, 130, 246, 0.4);
+      --glass: rgba(15, 23, 42, 0.75);
+      --glass-hover: rgba(30, 41, 59, 0.85);
+      --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.5);
+      --shadow-glow: 0 0 30px rgba(37, 99, 235, 0.25);
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-xl: 32px;
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+      min-height: 100vh;
+      background-image:
+        radial-gradient(ellipse 70% 50% at 20% 30%, rgba(37, 99, 235, 0.06) 0%, transparent 55%),
+        radial-gradient(ellipse 50% 40% at 80% 70%, rgba(59, 130, 246, 0.05) 0%, transparent 55%),
+        radial-gradient(ellipse 40% 30% at 50% 50%, rgba(96, 165, 250, 0.03) 0%, transparent 60%);
+      background-attachment: fixed;
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 1;
+      opacity: 0.035;
+      mix-blend-mode: overlay;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    }
+
+    ::-webkit-scrollbar { width: 3px; }
+    ::-webkit-scrollbar-track { background: var(--bg-deep); }
+    ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 10px; }
+    ::selection { background: rgba(59, 130, 246, 0.25); color: #fff; }
+
+    /* ========== PRELOADER ========== */
+    #preloader {
+      position: fixed;
+      inset: 0;
+      background: #01040f;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 10000;
+      transition: opacity 0.5s ease, visibility 0.5s;
+    }
+    #preloader.hide {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .preloader-ring-wrap {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 28px;
+    }
+    .preloader-logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 22px;
+      object-fit: cover;
+      position: relative;
+      z-index: 2;
+      box-shadow: 0 0 40px rgba(37, 99, 235, 0.5);
+      animation: floatLogo 3s ease-in-out infinite;
+    }
+    .preloader-orbit {
+      position: absolute;
+      inset: -8px;
+      border-radius: 30px;
+      border: 1.5px solid rgba(59, 130, 246, 0.5);
+      animation: orbitSpin 2.5s linear infinite;
+    }
+    .preloader-orbit:nth-child(3) {
+      inset: -18px;
+      border-radius: 38px;
+      animation-duration: 3.5s;
+      animation-direction: reverse;
+      border-color: rgba(59, 130, 246, 0.2);
+    }
+    @keyframes floatLogo {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes orbitSpin {
+      to { transform: rotate(360deg); }
+    }
+    .preloader-bar {
+      width: 120px;
+      height: 2px;
+      background: rgba(59, 130, 246, 0.15);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .preloader-bar-fill {
+      height: 100%;
+      width: 0;
+      background: var(--accent);
+      border-radius: 4px;
+      animation: barFill 1.6s ease-in-out forwards;
+    }
+    @keyframes barFill {
+      0% { width: 0; }
+      100% { width: 100%; }
+    }
+
+    /* ========== NAVIGATION ========== */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      transition: var(--transition);
+    }
+    .nav.scrolled {
+      background: rgba(2, 6, 23, 0.92);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      border-bottom: 1px solid var(--border-subtle);
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    }
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.85rem 1.5rem;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+    }
+    .nav-logo {
+      height: 38px;
+      width: 38px;
+      border-radius: 11px;
+      object-fit: cover;
+      box-shadow: 0 0 14px rgba(59, 130, 246, 0.35);
+      transition: var(--transition);
+    }
+    .nav-brand:hover .nav-logo {
+      box-shadow: 0 0 22px rgba(59, 130, 246, 0.65);
+      transform: scale(1.04);
+    }
+    .nav-brand-name {
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.4px;
+      color: var(--text-primary);
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      list-style: none;
+    }
+    .nav-link {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.88rem;
+      letter-spacing: 0.3px;
+      position: relative;
+      padding: 5px 0;
+      transition: color 0.2s;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1.5px;
+      background: var(--accent);
+      transition: width var(--transition);
+      border-radius: 2px;
+    }
+    .nav-link:hover { color: var(--text-primary); }
+    .nav-link:hover::after { width: 100%; }
+    .nav-hamburger {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      z-index: 101;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .ham-line {
+      display: block;
+      width: 22px;
+      height: 1.5px;
+      background: var(--accent-light);
+      transition: var(--transition);
+      border-radius: 2px;
+    }
+    .ham-line.short { width: 15px; margin-left: auto; }
+    .nav-hamburger.active .ham-line:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+    .nav-hamburger.active .ham-line:nth-child(2) { opacity: 0; transform: scale(0); }
+    .nav-hamburger.active .ham-line:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); width: 22px; }
+
+    /* Mobile Menu */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(1, 3, 12, 0.97);
+      backdrop-filter: blur(24px);
+      z-index: 99;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.4rem;
+    }
+    .mobile-menu.active { display: flex; }
+    .mobile-menu a {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #cbd5e1;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      transition: all 0.2s;
+    }
+    .mobile-menu a:hover { color: var(--accent-light); }
+
+    /* ========== SECTIONS ========== */
+    .section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 3rem;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+    .section-eyebrow {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: var(--accent-light);
+      margin-bottom: 0.7rem;
+      padding: 4px 14px;
+      border: 1px solid rgba(59, 130, 246, 0.2);
+      border-radius: 50px;
+      background: rgba(59, 130, 246, 0.04);
+    }
+    .section-title {
+      font-size: clamp(2rem, 4vw, 2.5rem);
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--text-primary);
+      line-height: 1.15;
+    }
+
+    /* ========== HERO ========== */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: 80px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+      width: 100%;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 15px;
+      border: 1px solid var(--border-subtle);
+      border-radius: 50px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 2px;
+      color: var(--accent-light);
+      margin-bottom: 1.5rem;
+      background: rgba(15, 23, 42, 0.5);
+    }
+    .badge-dot {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+      box-shadow: 0 0 8px var(--accent);
+      animation: dotBlink 2s ease-in-out infinite;
+    }
+    @keyframes dotBlink {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    .hero-title {
+      font-size: clamp(2.8rem, 5vw, 4.2rem);
+      font-weight: 900;
+      line-height: 1.05;
+      letter-spacing: -1.5px;
+      margin-bottom: 1rem;
+      color: var(--text-primary);
+    }
+    .hero-title span {
+      display: block;
+      background: linear-gradient(135deg, #60a5fa, #3b82f6, #2563eb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      filter: drop-shadow(0 0 22px rgba(37, 99, 235, 0.45));
+    }
+    .hero-desc {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+      max-width: 420px;
+      line-height: 1.7;
+    }
+    .hero-btns {
+      display: flex;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 0.8rem 1.7rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.88rem;
+      letter-spacing: 0.3px;
+      cursor: pointer;
+      border: none;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      transition: all var(--transition);
+      font-family: inherit;
+    }
+    .btn-primary {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 4px 18px rgba(37, 99, 235, 0.35);
+    }
+    .btn-primary:hover {
+      background: #2563eb;
+      box-shadow: 0 6px 28px rgba(37, 99, 235, 0.55);
+      transform: translateY(-2px);
+    }
+    .btn-outline {
+      background: transparent;
+      border: 1px solid rgba(59, 130, 246, 0.35);
+      color: #cbd5e1;
+    }
+    .btn-outline:hover {
+      border-color: var(--accent);
+      background: rgba(59, 130, 246, 0.06);
+      color: #fff;
+    }
+    .hero-visual {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-glow {
+      position: absolute;
+      width: 320px;
+      height: 320px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(37, 99, 235, 0.18) 0%, transparent 65%);
+      filter: blur(50px);
+      animation: glowPulse 5s ease-in-out infinite;
+    }
+    @keyframes glowPulse {
+      0%, 100% { transform: scale(1); opacity: 0.6; }
+      50% { transform: scale(1.12); opacity: 1; }
+    }
+    .floating-3d-shape {
+      position: absolute;
+      border-radius: 18px;
+      background: linear-gradient(135deg, rgba(96, 165, 250, 0.55), rgba(59, 130, 246, 0.18));
+      border: 2px solid rgba(147, 197, 253, 0.75);
+      backdrop-filter: blur(4px);
+      box-shadow: 0 0 30px rgba(59, 130, 246, 0.6), inset 0 0 20px rgba(255, 255, 255, 0.15);
+      z-index: 1;
+      pointer-events: none;
+    }
+    .shape-1 {
+      width: 60px;
+      height: 60px;
+      top: -8%;
+      right: -6%;
+      animation: float3dA 5s ease-in-out infinite;
+    }
+    .shape-2 {
+      width: 40px;
+      height: 40px;
+      bottom: 6%;
+      left: -8%;
+      border-radius: 50%;
+      animation: float3dB 6s ease-in-out infinite;
+    }
+    .shape-3 {
+      width: 76px;
+      height: 76px;
+      bottom: -10%;
+      right: -8%;
+      animation: float3dC 7s ease-in-out infinite;
+    }
+    @keyframes float3dA {
+      0%, 100% { transform: perspective(600px) rotateX(0deg) rotateY(0deg) translateY(0); }
+      50% { transform: perspective(600px) rotateX(35deg) rotateY(35deg) translateY(-26px); }
+    }
+    @keyframes float3dB {
+      0%, 100% { transform: perspective(600px) translateY(0) rotateZ(0deg); }
+      50% { transform: perspective(600px) translateY(24px) rotateZ(180deg); }
+    }
+    @keyframes float3dC {
+      0%, 100% { transform: perspective(700px) rotateX(0deg) rotateY(0deg) translateY(0); }
+      50% { transform: perspective(700px) rotateX(-30deg) rotateY(-30deg) translateY(-18px); }
+    }
+    .hero-banner {
+      width: 100%;
+      max-width: 400px;
+      border-radius: var(--radius-xl);
+      object-fit: cover;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.7), 0 0 45px rgba(37, 99, 235, 0.2);
+      position: relative;
+      z-index: 2;
+      border: 1px solid rgba(255, 255, 255, 0.04);
+    }
+
+    /* ========== SERVICES ========== */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+      gap: 1.1rem;
+    }
+    .service-card {
+      background: var(--glass);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.8rem 1.5rem;
+      transition: all var(--transition);
+      position: relative;
+      overflow: hidden;
+      animation: idleCardFloat 5s ease-in-out infinite;
+    }
+    @keyframes idleCardFloat {
+      0%, 100% { transform: perspective(800px) rotateX(0deg) rotateY(0deg) translateY(0); }
+      50% { transform: perspective(800px) rotateX(3deg) rotateY(-3deg) translateY(-7px); }
+    }
+    .services-grid .service-card:nth-child(2n) { animation-delay: 0.6s; }
+    .services-grid .service-card:nth-child(3n) { animation-delay: 1.2s; }
+    .services-grid .service-card:nth-child(4n) { animation-delay: 1.8s; }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent), transparent);
+      opacity: 0;
+      transition: opacity var(--transition);
+    }
+    .service-card:hover {
+      transform: perspective(800px) rotateX(3deg) rotateY(-3deg) translateY(-6px);
+      border-color: var(--border-active);
+      box-shadow: var(--shadow-card), 0 0 22px rgba(37, 99, 235, 0.12);
+      background: var(--glass-hover);
+    }
+    .service-card:hover::before { opacity: 1; }
+    .service-num {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: rgba(59, 130, 246, 0.18);
+      margin-bottom: 0.7rem;
+      letter-spacing: -1px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .service-card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      color: var(--text-primary);
+    }
+    .service-card p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+    }
+
+    /* ========== ABOUT + STATS ========== */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    .about-desc {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 1.2rem;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .stat-item {
+      background: var(--glass);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.4rem 1rem;
+      text-align: center;
+      transition: var(--transition);
+      animation: idleCardFloat 5s ease-in-out infinite;
+    }
+    .stats-grid .stat-item:nth-child(2) { animation-delay: 0.5s; }
+    .stats-grid .stat-item:nth-child(3) { animation-delay: 1s; }
+    .stats-grid .stat-item:nth-child(4) { animation-delay: 1.5s; }
+    .stat-item:hover {
+      border-color: var(--border-active);
+      transform: perspective(700px) rotateX(4deg) translateY(-4px);
+    }
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 900;
+      font-family: 'JetBrains Mono', monospace;
+      background: linear-gradient(135deg, #60a5fa, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-top: 0.3rem;
+    }
+    @media (max-width: 768px) {
+      .about-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ========== PROCESS ========== */
+    .process-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+    }
+    .process-step {
+      position: relative;
+      background: var(--glass);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      padding: 1.8rem 1.4rem;
+      transition: var(--transition);
+      animation: idleCardFloat 5s ease-in-out infinite;
+    }
+    .process-grid .process-step:nth-child(2) { animation-delay: 0.4s; }
+    .process-grid .process-step:nth-child(3) { animation-delay: 0.8s; }
+    .process-grid .process-step:nth-child(4) { animation-delay: 1.2s; }
+    .process-step:hover {
+      border-color: var(--border-active);
+      transform: perspective(700px) rotateX(4deg) rotateY(3deg) translateY(-5px);
+    }
+    .process-step .step-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: rgba(59, 130, 246, 0.35);
+      margin-bottom: 0.6rem;
+    }
+    .process-step h3 { font-size: 1.05rem; margin-bottom: 0.5rem; color: var(--text-primary); }
+    .process-step p { font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6; }
+    @media (max-width: 900px) {
+      .process-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 560px) {
+      .process-grid { grid-template-columns: 1fr; }
+    }
+
+    /* ========== PROJECTS ========== */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+      gap: 1.4rem;
+    }
+    .project-card {
+      background: var(--glass);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      transition: all var(--transition);
+      animation: idleCardFloat 5.5s ease-in-out infinite;
+    }
+    .projects-grid .project-card:nth-child(2n) { animation-delay: 0.5s; }
+    .projects-grid .project-card:nth-child(3n) { animation-delay: 1s; }
+    .projects-grid .project-card:nth-child(4n) { animation-delay: 1.5s; }
+    .project-card:hover {
+      transform: perspective(900px) rotateX(2deg) rotateY(-2deg) translateY(-6px);
+      border-color: var(--border-active);
+      box-shadow: var(--shadow-card), 0 0 18px rgba(37, 99, 235, 0.12);
+    }
+    .project-card-img-wrap {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      background: #0b1220;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border-bottom: 1px solid var(--border-subtle);
+      position: relative;
+    }
+    .project-card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+    .gallery-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: rgba(2, 6, 23, 0.6);
+      border: 1px solid rgba(148, 163, 184, 0.3);
+      color: #f1f5f9;
+      font-size: 1.2rem;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 2;
+    }
+    .gallery-arrow-left { left: 8px; }
+    .gallery-arrow-right { right: 8px; }
+    .gallery-arrow:hover { background: rgba(59, 130, 246, 0.8); }
+    .gallery-dots {
+      position: absolute;
+      bottom: 8px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+      z-index: 2;
+    }
+    .gallery-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.4);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .gallery-dot.active { background: #3b82f6; width: 16px; border-radius: 3px; }
+    .project-card-body {
+      padding: 1.1rem 1.4rem;
+    }
+    .project-cat {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--accent-light);
+    }
+    .project-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 0.3rem 0 0.4rem;
+      color: var(--text-primary);
+    }
+    .project-desc {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.7rem;
+    }
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .tag {
+      font-size: 0.65rem;
+      padding: 3px 9px;
+      border-radius: 50px;
+      background: rgba(59, 130, 246, 0.08);
+      border: 1px solid rgba(59, 130, 246, 0.18);
+      color: var(--accent-light);
+      font-weight: 500;
+    }
+
+    /* ========== REVIEWS ========== */
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.1rem;
+      margin-bottom: 2.5rem;
+    }
+    .review-card {
+      background: var(--glass);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      transition: all var(--transition);
+    }
+    .review-card:hover {
+      transform: translateY(-3px);
+      border-color: var(--border-active);
+      box-shadow: var(--shadow-card);
+    }
+    .review-stars {
+      color: #fbbf24;
+      font-size: 1rem;
+      letter-spacing: 2px;
+      margin-bottom: 0.6rem;
+    }
+    .review-text {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      margin-bottom: 0.9rem;
+      font-style: italic;
+    }
+    .review-author {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .review-form-wrap {
+      max-width: 480px;
+      margin: 0 auto;
+      background: var(--glass);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.8rem;
+    }
+    .review-form-title {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 1.2rem;
+      color: var(--text-primary);
+    }
+    .star-rating-input {
+      display: flex;
+      justify-content: center;
+      gap: 0.4rem;
+      font-size: 1.8rem;
+      margin-bottom: 0.9rem;
+      cursor: pointer;
+    }
+    .star-pick {
+      color: #475569;
+      transition: color 0.15s, transform 0.15s;
+      user-select: none;
+    }
+    .star-pick:hover { transform: scale(1.15); }
+    .star-pick.selected { color: #fbbf24; }
+
+    /* ========== CONTACT ========== */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.8rem;
+      align-items: start;
+    }
+    .contact-info, .contact-form {
+      background: var(--glass);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      padding: 1.8rem;
+    }
+    .contact-grid-single {
+      grid-template-columns: 1fr;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.9rem;
+      padding: 0.9rem;
+      border-radius: var(--radius-md);
+      transition: var(--transition);
+      margin-bottom: 0.6rem;
+    }
+    .contact-item:hover {
+      background: rgba(59, 130, 246, 0.04);
+    }
+    .contact-icon {
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(59, 130, 246, 0.08);
+      border-radius: 10px;
+      flex-shrink: 0;
+      font-size: 1.2rem;
+    }
+    .contact-label {
+      font-weight: 600;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1px;
+    }
+    .contact-value {
+      font-weight: 500;
+      color: var(--text-primary);
+      font-size: 0.9rem;
+    }
+    .contact-value a {
+      color: var(--accent-light);
+      text-decoration: none;
+    }
+    .contact-value a:hover { color: var(--accent-light); }
+    .form-input {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.9rem;
+      background: rgba(15, 23, 42, 0.55);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      color: var(--text-primary);
+      font-family: inherit;
+      font-size: 0.88rem;
+      transition: all var(--transition);
+      outline: none;
+    }
+    .form-input:focus {
+      border-color: var(--accent);
+      box-shadow: 0 0 10px rgba(37, 99, 235, 0.15);
+      background: rgba(20, 30, 48, 0.75);
+    }
+    .form-input::placeholder { color: var(--text-muted); }
+    textarea.form-input { resize: vertical; min-height: 100px; }
+
+    /* ========== FOOTER ========== */
+    .footer {
+      border-top: 1px solid var(--border-subtle);
+      padding: 1.8rem 1.5rem;
+      text-align: center;
+      background: rgba(2, 6, 23, 0.7);
+      backdrop-filter: blur(8px);
+    }
+    .footer-logo {
+      height: 38px;
+      border-radius: 9px;
+      margin-bottom: 0.6rem;
+      box-shadow: 0 0 12px rgba(37, 99, 235, 0.25);
+    }
+    .footer-text {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      letter-spacing: 0.4px;
+    }
+
+    /* ========== ADMIN PANEL STYLES ========== */
+    #adminPanel {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(2, 6, 23, 0.98);
+      backdrop-filter: blur(30px);
+      z-index: 200;
+      overflow-y: auto;
+      padding: 2rem 1rem;
+    }
+    #adminPanel.active {
+      display: block;
+    }
+    .admin-container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .admin-card {
+      background: rgba(15, 23, 42, 0.9);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(59, 130, 246, 0.2);
+      border-radius: 24px;
+      padding: 2rem 1.8rem;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(37, 99, 235, 0.2);
+      margin-bottom: 1.5rem;
+    }
+    .admin-logo {
+      display: block;
+      width: 60px;
+      height: 60px;
+      border-radius: 14px;
+      margin: 0 auto 1.2rem;
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
+      animation: adminLogoFloat 4s ease-in-out infinite;
+      transform-style: preserve-3d;
+    }
+    @keyframes adminLogoFloat {
+      0%, 100% { transform: perspective(600px) rotateY(0deg) translateY(0px); }
+      50% { transform: perspective(600px) rotateY(12deg) translateY(-6px); }
+    }
+    .admin-title {
+      text-align: center;
+      font-weight: 800;
+      font-size: 1.3rem;
+      margin-bottom: 0.2rem;
+    }
+    .admin-subtitle {
+      text-align: center;
+      color: #94a3b8;
+      font-size: 0.8rem;
+      margin-bottom: 1.5rem;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #94a3b8;
+      margin-bottom: 0.35rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .form-group input, .form-group textarea, .form-group select {
+      width: 100%;
+      padding: 0.8rem 0.9rem;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(59, 130, 246, 0.2);
+      border-radius: 12px;
+      color: #f1f5f9;
+      font-family: inherit;
+      font-size: 0.85rem;
+      outline: none;
+      transition: 0.3s;
+    }
+    .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+      border-color: #3b82f6;
+      box-shadow: 0 0 10px rgba(37, 99, 235, 0.15);
+    }
+    .btn-admin {
+      width: 100%;
+      padding: 0.85rem;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+      font-family: inherit;
+      letter-spacing: 0.3px;
+      margin-top: 0.5rem;
+    }
+    .btn-login {
+      background: #3b82f6;
+      color: #fff;
+      box-shadow: 0 4px 18px rgba(37, 99, 235, 0.35);
+    }
+    .btn-login:hover { background: #2563eb; }
+    .btn-add {
+      background: #10b981;
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(16, 185, 129, 0.3);
+    }
+    .btn-add:hover { background: #059669; }
+    .btn-logout {
+      background: transparent;
+      border: 1px solid rgba(239, 68, 68, 0.5);
+      color: #ef4444;
+      margin-top: 0.8rem;
+    }
+    .btn-logout:hover { background: rgba(239, 68, 68, 0.08); }
+    .btn-close-admin {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(239, 68, 68, 0.2);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      color: #ef4444;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      z-index: 201;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s;
+    }
+    .btn-close-admin:hover {
+      background: rgba(239, 68, 68, 0.4);
+    }
+    .project-list-admin {
+      max-height: 350px;
+      overflow-y: auto;
+      margin-top: 1rem;
+    }
+    .project-item-admin {
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid rgba(59, 130, 246, 0.12);
+      border-radius: 10px;
+      padding: 0.8rem 0.9rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.82rem;
+    }
+    .btn-delete {
+      background: #ef4444;
+      color: #fff;
+      padding: 0.3rem 0.7rem;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .btn-delete:hover { background: #dc2626; }
+    .msg-text {
+      text-align: center;
+      font-size: 0.8rem;
+      margin-top: 0.4rem;
+    }
+    .msg-success { color: #10b981; }
+    .msg-error { color: #ef4444; }
+
+    /* ========== UPLOAD HINT ========== */
+    .upload-hint {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-top: 0.35rem;
+      line-height: 1.4;
+    }
+
+    /* ========== ANALYTICS ========== */
+    .analytics-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 0.7rem;
+    }
+    .analytics-stat-card {
+      background: rgba(30, 41, 59, 0.6);
+      border: 1px solid rgba(59, 130, 246, 0.15);
+      border-radius: 12px;
+      padding: 1rem 0.7rem;
+      text-align: center;
+    }
+    .analytics-stat-value {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #60a5fa;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .analytics-stat-label {
+      font-size: 0.68rem;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 0.2rem;
+    }
+
+    /* ========== FAQ SECTION ========== */
+    .faq-list {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .faq-item {
+      background: var(--glass);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      margin-bottom: 0.8rem;
+      overflow: hidden;
+      transition: var(--transition);
+    }
+    .faq-item:hover { border-color: var(--border-active); }
+    .faq-question {
+      padding: 1.1rem 1.4rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      font-size: 0.92rem;
+      color: #f1f5f9;
+    }
+    .faq-question-icon {
+      font-size: 1.2rem;
+      color: var(--accent-light);
+      transition: transform 0.25s;
+      flex-shrink: 0;
+      margin-left: 1rem;
+    }
+    .faq-item.open .faq-question-icon { transform: rotate(45deg); }
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+    .faq-item.open .faq-answer { max-height: 300px; }
+    .faq-answer-inner {
+      padding: 0 1.4rem 1.1rem;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ========== WHATSAPP CHAT BUBBLE ========== */
+    .chat-bubble {
+      position: fixed;
+      bottom: 22px;
+      right: 22px;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: #25D366;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45);
+      z-index: 90;
+      cursor: pointer;
+      text-decoration: none;
+      animation: chatPulse 2.5s ease-in-out infinite;
+    }
+    @keyframes chatPulse {
+      0%, 100% { box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45); }
+      50% { box-shadow: 0 6px 28px rgba(37, 211, 102, 0.7); }
+    }
+    .chat-bubble:hover { transform: scale(1.08); }
+    .chat-bubble svg { width: 28px; height: 28px; }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 22px;
+      left: 22px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: var(--glass);
+      border: 1px solid var(--border-active);
+      backdrop-filter: blur(12px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 90;
+      cursor: pointer;
+      color: var(--text-primary);
+      font-size: 1.2rem;
+      transition: var(--transition);
+    }
+    .back-to-top.show { display: flex; }
+    .back-to-top:hover { transform: translateY(-3px); border-color: var(--accent); }
+
+    /* ========== DARK/LIGHT TOGGLE ========== */
+    .theme-toggle-btn {
+      background: rgba(59, 130, 246, 0.08);
+      border: 1px solid var(--border-subtle);
+      border-radius: 50px;
+      width: 36px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: var(--transition);
+      margin-left: 0.5rem;
+    }
+    .theme-toggle-btn:hover { border-color: var(--border-active); }
+    body.light-mode {
+      --bg-deep: #f8fafc;
+      --bg-card: #ffffff;
+      --bg-elevated: #f1f5f9;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --glass: rgba(255, 255, 255, 0.85);
+      --glass-hover: rgba(241, 245, 249, 0.9);
+      --border-subtle: rgba(59, 130, 246, 0.15);
+    }
+    body.light-mode .hero-title { color: #0f172a; }
+    body.light-mode .nav.scrolled {
+      background: rgba(248, 250, 252, 0.92);
+    }
+    body.light-mode .mobile-menu {
+      background: rgba(248, 250, 252, 0.98);
+    }
+    body.light-mode .mobile-menu a { color: #1e293b; }
+
+    /* Light mode: form fields need light background + dark text */
+    body.light-mode .form-input {
+      background: rgba(255, 255, 255, 0.9);
+      color: #0f172a;
+      border-color: rgba(59, 130, 246, 0.25);
+    }
+    body.light-mode .form-input::placeholder { color: #94a3b8; }
+    body.light-mode .star-pick { color: #cbd5e1; }
+    body.light-mode .star-pick.selected { color: #f59e0b; }
+    body.light-mode .faq-question { color: #0f172a; }
+    body.light-mode .faq-answer-inner { color: #334155; }
+    body.light-mode .hero-badge { background: rgba(255, 255, 255, 0.6); }
+    body.light-mode .tag {
+      background: rgba(59, 130, 246, 0.08);
+      color: #2563eb;
+    }
+    body.light-mode .project-cat { color: #2563eb; }
+    body.light-mode .service-num { color: rgba(59, 130, 246, 0.25); }
+    body.light-mode .hero-desc { color: #475569; }
+    body.light-mode .service-card p { color: #475569; }
+    body.light-mode .project-desc { color: #475569; }
+    body.light-mode .review-stars { color: #f59e0b; }
+    body.light-mode .footer-text { color: #64748b; }
+    body.light-mode .theme-toggle-btn { background: rgba(59, 130, 246, 0.1); }
+    body.light-mode .btn-outline {
+      color: #1e293b;
+      border-color: rgba(59, 130, 246, 0.35);
+    }
+    body.light-mode .btn-outline:hover { color: #0f172a; }
+    body.light-mode .mobile-menu a:hover { color: var(--accent); }
+    body.light-mode .section-eyebrow {
+      background: rgba(59, 130, 246, 0.06);
+      color: #2563eb;
+    }
+    body.light-mode .hero-badge {
+      color: #2563eb;
+      background: rgba(255, 255, 255, 0.7);
+    }
+    body.light-mode .about-desc,
+    body.light-mode .stat-label { color: #475569; }
+    body.light-mode .stat-number { color: #1e40af; }
+
+    /* Admin panel always stays dark, regardless of site light/dark toggle */
+    body.light-mode #adminPanel,
+    body.light-mode #adminPanel * {
+      color-scheme: dark;
+    }
+    body.light-mode #adminPanel { background: rgba(2, 6, 23, 0.98) !important; }
+    body.light-mode #adminPanel .admin-card { background: rgba(15, 23, 42, 0.9) !important; }
+    body.light-mode #adminPanel .admin-title,
+    body.light-mode #adminPanel h3,
+    body.light-mode #adminPanel label { color: #f1f5f9 !important; }
+    body.light-mode #adminPanel .form-group input,
+    body.light-mode #adminPanel .form-group textarea,
+    body.light-mode #adminPanel .form-group select {
+      background: rgba(15, 23, 42, 0.7) !important;
+      color: #f1f5f9 !important;
+      border-color: rgba(59, 130, 246, 0.2) !important;
+    }
+    body.light-mode #adminPanel .project-item-admin { background: rgba(30, 41, 59, 0.6) !important; color: #f1f5f9 !important; }
+    body.light-mode #adminPanel .admin-tab-btn { color: #94a3b8 !important; }
+    body.light-mode #adminPanel .admin-tab-btn.active { color: #60a5fa !important; }
+    body.light-mode #adminPanel .analytics-stat-card { background: rgba(30, 41, 59, 0.6) !important; }
+
+    /* ========== ADMIN TABS ========== */
+    .admin-body {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+    .admin-tabs {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+      margin-bottom: 0;
+      border-bottom: none;
+      overflow-x: visible;
+      width: 210px;
+      flex-shrink: 0;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(59, 130, 246, 0.15);
+      border-radius: 16px;
+      padding: 0.8rem 0.6rem;
+      position: sticky;
+      top: 1rem;
+    }
+    .admin-tab-group-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #64748b;
+      padding: 0.9rem 0.6rem 0.3rem;
+    }
+    .admin-tab-group-label:first-child { padding-top: 0.2rem; }
+    .admin-tab-btn {
+      background: transparent;
+      border: none;
+      border-left: 3px solid transparent;
+      color: #94a3b8;
+      font-family: inherit;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 0.65rem 0.7rem;
+      cursor: pointer;
+      border-radius: 8px;
+      white-space: nowrap;
+      transition: 0.2s;
+      text-align: left;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .tab-icon { width: 17px; height: 17px; flex-shrink: 0; }
+    .admin-tab-btn:hover {
+      color: #e2e8f0;
+      background: rgba(59, 130, 246, 0.08);
+    }
+    .admin-tab-btn.active {
+      color: #60a5fa;
+      background: rgba(59, 130, 246, 0.12);
+      border-left: 3px solid #3b82f6;
+    }
+    .admin-content {
+      flex: 1;
+      min-width: 0;
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid rgba(59, 130, 246, 0.12);
+      border-radius: 16px;
+      padding: 1.4rem;
+    }
+    /* Admin panel always renders in desktop layout — scrolls horizontally on small screens instead of stacking */
+    #adminPanel { overflow-x: auto; }
+    .admin-container { min-width: 900px; }
+    .admin-tab-panel {
+      display: none;
+    }
+    .admin-tab-panel.active {
+      display: block;
+    }
+    .msg-chat-list { display: flex; flex-direction: column; gap: 2px; max-height: 560px; overflow-y: auto; }
+    .msg-chat-item {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      padding: 0.75rem 0.6rem;
+      border-radius: 10px;
+      cursor: default;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.08);
+      transition: 0.2s;
+    }
+    .msg-chat-item:hover { background: rgba(37, 211, 102, 0.06); }
+    .msg-chat-item.unread { background: rgba(37, 211, 102, 0.08); }
+    .msg-avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #25D366, #128C7E);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.95rem;
+      flex-shrink: 0;
+    }
+    .msg-chat-body { flex: 1; min-width: 0; }
+    .msg-chat-top { display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem; }
+    .msg-chat-name { font-weight: 700; font-size: 0.88rem; color: #f1f5f9; }
+    .msg-chat-time { font-size: 0.68rem; color: #64748b; flex-shrink: 0; }
+    .msg-chat-preview {
+      font-size: 0.78rem;
+      color: #94a3b8;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+    }
+    .msg-chat-item.unread .msg-chat-preview { color: #e2e8f0; font-weight: 600; }
+    .msg-unread-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: #25D366;
+      flex-shrink: 0;
+    }
+    .msg-chat-actions { display: flex; gap: 0.4rem; margin-top: 0.4rem; }
+    .msg-action-btn {
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .msg-action-reply { background: #25D366; color: #fff; }
+    .msg-action-read { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+    .msg-action-delete { background: rgba(239, 68, 68, 0.15); color: #f87171; }
+    .theme-preset-btn {
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      border: 2px solid rgba(255,255,255,0.15);
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    .theme-preset-btn:hover {
+      transform: scale(1.1);
+      border-color: rgba(255,255,255,0.4);
+    }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-hamburger { display: flex; }
+      .hero-grid { grid-template-columns: 1fr; text-align: center; }
+      .hero-visual { order: -1; }
+      .hero-desc { max-width: 100%; margin-left: auto; margin-right: auto; }
+      .hero-btns { justify-content: center; }
+      .hero-banner { max-width: 280px; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .services-grid { grid-template-columns: 1fr 1fr; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .section { padding: 3rem 1rem 2rem; }
+    }
+    @media (max-width: 480px) {
+      .services-grid { grid-template-columns: 1fr; }
+      .btn { padding: 0.7rem 1.3rem; font-size: 0.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==================== PRELOADER ==================== -->
+  <div id="preloader">
+    <div class="preloader-ring-wrap">
+      <div class="preloader-orbit"></div>
+      <div class="preloader-orbit"></div>
+      <img src="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg" alt="NIMAH DEV STUDIO" class="preloader-logo">
+    </div>
+    <div class="preloader-bar">
+      <div class="preloader-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand">
+        <img src="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg" alt="NIMAH DEV STUDIO" class="nav-logo">
+        <span class="nav-brand-name">NIMAH DEV STUDIO</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div style="display:flex;align-items:center;">
+        <button class="theme-toggle-btn" id="themeToggleBtn" onclick="toggleLightDark()" title="Toggle theme" aria-label="Toggle light/dark mode">🌙</button>
+        <button class="nav-hamburger" id="hamburgerBtn" aria-label="Menu">
+          <span class="ham-line"></span>
+          <span class="ham-line short"></span>
+          <span class="ham-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ==================== MAIN WEBSITE CONTENT ==================== -->
+  <div id="mainWebsite">
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-grid">
+        <div>
+          <div class="hero-badge">
+            <span class="badge-dot"></span> SOFTWARE DEVELOPMENT STUDIO
+          </div>
+          <h1 class="hero-title">
+            NIMAH DEV<br><span>STUDIO</span>
+          </h1>
+          <p class="hero-desc">
+            Building Future Digital Experiences — professional websites, mobile applications, 
+            AI chatbots, and custom digital solutions engineered for tomorrow.
+          </p>
+          <div class="hero-btns">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="https://wa.me/94764833081" target="_blank" class="btn btn-outline">WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-glow"></div>
+          <div class="floating-3d-shape shape-1"></div>
+          <div class="floating-3d-shape shape-2"></div>
+          <div class="floating-3d-shape shape-3"></div>
+          <img src="https://i.ibb.co/5g0yy40F/IMG-20260722-WA0002.jpg" alt="NIMAH DEV STUDIO Banner" class="hero-banner" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="about-grid">
+        <div>
+          <span class="section-eyebrow">About Us</span>
+          <h2 class="section-title" style="margin-bottom:1rem;">Who We Are</h2>
+          <p class="about-desc">
+            NIMAH DEV STUDIO is a software development studio focused on building modern,
+            high-performance websites, mobile apps, and AI-powered chatbots for businesses
+            in Sri Lanka and beyond. We don't limit ourselves to one type of project — from
+            simple portfolio pages to full booking systems, e-commerce stores, school
+            management systems, and custom business software, we build it the way our
+            client wants it.
+          </p>
+          <p class="about-desc">
+            Every project starts with listening to what you actually need. Whatever your
+            industry — retail, education, hospitality, healthcare, or something completely
+            different — we design and develop a solution built around your business, not a
+            one-size-fits-all template.
+          </p>
+          <p class="about-desc">
+            From idea to deployment, we work closely with every client to deliver custom
+            digital solutions that are fast, secure, and built to scale.
+          </p>
+        </div>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" id="statProjects">50+</div>
+            <div class="stat-label">Projects Delivered</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="statClients">40+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="statExperience">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" id="statSupport">24/7</div>
+            <div class="stat-label">Support</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="section-header">
+        <span class="section-eyebrow">What We Do</span>
+        <h2 class="section-title">Our Expertise</h2>
+      </div>
+      <div class="services-grid" id="servicesGrid"></div>
+    </section>
+
+    <!-- Process -->
+    <section class="section" id="process">
+      <div class="section-header">
+        <span class="section-eyebrow">Our Process</span>
+        <h2 class="section-title">How We Work</h2>
+      </div>
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <h3>Consultation</h3>
+          <p>We listen to what you need, your goals, and your budget before suggesting any solution.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <h3>Design</h3>
+          <p>A custom design concept built around your brand and the way your customers will use it.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <h3>Development</h3>
+          <p>Clean, secure development with regular updates so you always know where your project stands.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <h3>Launch & Support</h3>
+          <p>We launch your site and stay available for updates, fixes, and future improvements.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-header">
+        <span class="section-eyebrow">Portfolio</span>
+        <h2 class="section-title">Featured Work</h2>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <p style="text-align:center;color:var(--text-muted);grid-column:1/-1;">Loading projects...</p>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section" id="reviews">
+      <div class="section-header">
+        <span class="section-eyebrow">Testimonials</span>
+        <h2 class="section-title">Client Reviews</h2>
+      </div>
+      <div class="reviews-grid" id="reviewsGrid">
+        <p style="text-align:center;color:var(--text-muted);grid-column:1/-1;">Loading reviews...</p>
+      </div>
+      <div class="review-form-wrap">
+        <h3 class="review-form-title">Share Your Experience</h3>
+        <form id="reviewForm">
+          <input type="text" class="form-input" id="reviewName" placeholder="Your Name" required>
+          <div class="star-rating-input" id="starRatingInput">
+            <span class="star-pick" data-value="1">★</span>
+            <span class="star-pick" data-value="2">★</span>
+            <span class="star-pick" data-value="3">★</span>
+            <span class="star-pick" data-value="4">★</span>
+            <span class="star-pick" data-value="5">★</span>
+          </div>
+          <textarea class="form-input" id="reviewMessage" placeholder="Write your review..." rows="3" required></textarea>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Submit Review</button>
+        </form>
+        <p id="reviewSubmitMsg" class="msg-text msg-success"></p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="section-header">
+        <span class="section-eyebrow">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list" id="faqPublicList">
+        <p style="text-align:center;color:var(--text-muted);">Loading FAQs...</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="section-header">
+        <span class="section-eyebrow">Get In Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+      </div>
+      <div class="contact-grid contact-grid-single">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.892.526 3.66 1.438 5.166L2 22l4.834-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg></div>
+            <div>
+              <div class="contact-label">WhatsApp</div>
+              <div class="contact-value"><a href="https://wa.me/94764833081">+94 76 483 30 81</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">nimahdev0987@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="review-form-wrap" style="margin-top:1.4rem;">
+        <h3 class="review-form-title">Send a Quick Message</h3>
+        <form id="quickMessageForm">
+          <input type="text" class="form-input" id="qmName" placeholder="Your Name" required>
+          <input type="text" class="form-input" id="qmContact" placeholder="Email or WhatsApp Number" required>
+          <textarea class="form-input" id="qmMessage" placeholder="Your Message..." rows="3" required></textarea>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+        </form>
+        <p id="qmSubmitMsg" class="msg-text msg-success"></p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <img src="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg" alt="NIMAH DEV STUDIO" class="footer-logo">
+      <p class="footer-text">&copy; <span id="footerYearTrigger" style="cursor:pointer;">2026</span> NIMAH DEV STUDIO. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <!-- WhatsApp Chat Bubble -->
+  <a href="https://wa.me/94764833081" target="_blank" class="chat-bubble" id="chatBubble" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.892.526 3.66 1.438 5.166L2 22l4.834-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a7.94 7.94 0 01-4.05-1.107l-.29-.173-3.006.893.902-2.943-.19-.303A7.963 7.963 0 014 12c0-4.418 3.582-8 8-8s8 3.582 8 8-3.582 8-8 8z"/></svg>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <!-- ==================== ADMIN PANEL (HIDDEN) ==================== -->
+  <div id="adminPanel">
+    <button class="btn-close-admin" onclick="closeAdminPanel()" title="Close Admin">✕</button>
+    <div class="admin-container">
+      <!-- Login Card -->
+      <div class="admin-card" id="adminLoginCard">
+        <img src="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg" alt="NIMAH DEV STUDIO" class="admin-logo">
+        <h2 class="admin-title">NIMAH DEV STUDIO</h2>
+        <p class="admin-subtitle">Admin Panel — Secure Access</p>
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" id="loginUsername" placeholder="admin">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" id="loginPassword" placeholder="••••••••">
+        </div>
+        <button class="btn-admin btn-login" onclick="adminLoginAttempt()">Sign In</button>
+        <p id="loginMsg" class="msg-text msg-error"></p>
+      </div>
+
+      <!-- Dashboard Card -->
+      <div class="admin-card" id="adminDashboardCard" style="display:none;">
+        <img src="https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg" alt="NIMAH DEV STUDIO" class="admin-logo">
+        <h2 class="admin-title">Developer Dashboard</h2>
+        <p class="admin-subtitle" id="loggedInAs">Manage Projects, Content & Theme</p>
+
+        <div class="admin-body">
+        <div class="admin-tabs">
+          <span class="admin-tab-group-label">Overview</span>
+          <button class="admin-tab-btn active" onclick="switchAdminTab('projects')" id="tabBtn-projects"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2V7z"/></svg> Projects</button>
+          <button class="admin-tab-btn" onclick="switchAdminTab('analytics')" id="tabBtn-analytics"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-6 4 3 5-7"/></svg> Analytics</button>
+          <button class="admin-tab-btn" onclick="switchAdminTab('messages')" id="tabBtn-messages"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg> Messages</button>
+          <span class="admin-tab-group-label">Content</span>
+          <button class="admin-tab-btn" onclick="switchAdminTab('content')" id="tabBtn-content"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4z"/></svg> Site Content</button>
+          <button class="admin-tab-btn" onclick="switchAdminTab('reviews')" id="tabBtn-reviews"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/></svg> Reviews</button>
+          <button class="admin-tab-btn" onclick="switchAdminTab('faq')" id="tabBtn-faq"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 2-3 4"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> FAQ</button>
+          <span class="admin-tab-group-label">Design & SEO</span>
+          <button class="admin-tab-btn" onclick="switchAdminTab('theme')" id="tabBtn-theme"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="7.5" cy="10.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="7.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="16.5" cy="10.5" r="1.2" fill="currentColor" stroke="none"/><path d="M12 21a1.5 1.5 0 010-3 2 2 0 002-2 3 3 0 013-3h.5a4.5 4.5 0 000-9"/></svg> Theme</button>
+          <button class="admin-tab-btn" onclick="switchAdminTab('seo')" id="tabBtn-seo"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> SEO</button>
+          <span class="admin-tab-group-label">Settings</span>
+          <button class="admin-tab-btn" onclick="switchAdminTab('users')" id="tabBtn-users"><svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Admin Users</button>
+        </div>
+
+        <div class="admin-content">
+        <!-- TAB: PROJECTS -->
+        <div class="admin-tab-panel active" id="tabPanel-projects">
+          <div class="form-group">
+            <label>Project Name</label>
+            <input type="text" id="projName" placeholder="Project name">
+          </div>
+          <div class="form-group">
+            <label>Project Screenshots (up to 3)</label>
+            <input type="text" id="projImage" placeholder="Screenshot 1 URL (or upload below)">
+            <input type="file" id="projImageFile" accept="image/*" style="margin-top:0.5rem;" onchange="handleImageUpload(this, 'projImage')">
+            <input type="text" id="projImage2" placeholder="Screenshot 2 URL (optional)" style="margin-top:0.6rem;">
+            <input type="file" id="projImageFile2" accept="image/*" style="margin-top:0.5rem;" onchange="handleImageUpload(this, 'projImage2')">
+            <input type="text" id="projImage3" placeholder="Screenshot 3 URL (optional)" style="margin-top:0.6rem;">
+            <input type="file" id="projImageFile3" accept="image/*" style="margin-top:0.5rem;" onchange="handleImageUpload(this, 'projImage3')">
+            <p class="upload-hint">Paste URLs above, or choose files to embed directly (keep each under ~500KB).</p>
+          </div>
+          <div class="form-group">
+            <label>Category</label>
+            <select id="projCategory">
+              <option>Web Development</option>
+              <option>Mobile App</option>
+              <option>AI Chatbot</option>
+              <option>E-Commerce</option>
+              <option>Booking System</option>
+              <option>Management System</option>
+              <option>Admin Dashboard</option>
+              <option>Custom Software</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Description</label>
+            <textarea id="projDesc" rows="2" placeholder="Short description"></textarea>
+          </div>
+          <div class="form-group">
+            <label>Technologies (comma separated)</label>
+            <input type="text" id="projTech" placeholder="React, Node.js, Firebase">
+          </div>
+          <div class="form-group">
+            <label>Demo URL</label>
+            <input type="text" id="projDemo" placeholder="https://...">
+          </div>
+          <button class="btn-admin btn-add" onclick="addProject()">Add Project</button>
+          <p id="addMsg" class="msg-text msg-success"></p>
+
+          <h3 style="margin-top:2rem;margin-bottom:1rem;font-size:0.95rem;color:#cbd5e1;">Projects in Database</h3>
+          <div class="project-list-admin" id="projectListAdmin">
+            <p style="color:#94a3b8;text-align:center;">Loading projects...</p>
+          </div>
+        </div>
+
+        <!-- TAB: SITE CONTENT -->
+        <div class="admin-tab-panel" id="tabPanel-content">
+          <div class="form-group">
+            <label>Brand Name</label>
+            <input type="text" id="cfgBrandName" placeholder="NIMAH DEV STUDIO">
+          </div>
+          <div class="form-group">
+            <label>Logo Image</label>
+            <input type="text" id="cfgLogoUrl" placeholder="https://... (or upload below)">
+            <input type="file" id="cfgLogoFile" accept="image/*" style="margin-top:0.5rem;" onchange="handleImageUpload(this, 'cfgLogoUrl')">
+          </div>
+          <div class="form-group">
+            <label>Hero Badge Text</label>
+            <input type="text" id="cfgHeroBadge" placeholder="SOFTWARE DEVELOPMENT STUDIO">
+          </div>
+          <div class="form-group">
+            <label>Hero Title Line 1</label>
+            <input type="text" id="cfgHeroTitle1" placeholder="NIMAH DEV">
+          </div>
+          <div class="form-group">
+            <label>Hero Title Line 2 (highlighted)</label>
+            <input type="text" id="cfgHeroTitle2" placeholder="STUDIO">
+          </div>
+          <div class="form-group">
+            <label>Hero Description</label>
+            <textarea id="cfgHeroDesc" rows="3" placeholder="Building Future Digital Experiences..."></textarea>
+          </div>
+          <div class="form-group">
+            <label>Hero Banner Image</label>
+            <input type="text" id="cfgHeroBanner" placeholder="https://... (or upload below)">
+            <input type="file" id="cfgHeroBannerFile" accept="image/*" style="margin-top:0.5rem;" onchange="handleImageUpload(this, 'cfgHeroBanner')">
+            <p class="upload-hint">Paste a URL, or upload a file to embed directly (keep under ~500KB for performance).</p>
+          </div>
+          <div class="form-group">
+            <label>WhatsApp Number (with country code)</label>
+            <input type="text" id="cfgWhatsapp" placeholder="94764833081">
+          </div>
+          <div class="form-group">
+            <label>Contact Email</label>
+            <input type="text" id="cfgEmail" placeholder="nimahdev0987@gmail.com">
+          </div>
+          <div class="form-group">
+            <label>Footer Copyright Text</label>
+            <input type="text" id="cfgFooterText" placeholder="NIMAH DEV STUDIO. All rights reserved.">
+          </div>
+          <h3 style="margin:1.2rem 0 0.6rem;font-size:0.9rem;color:#cbd5e1;">About Stats</h3>
+          <div class="form-group">
+            <label>Projects Delivered</label>
+            <input type="text" id="cfgStatProjects" placeholder="50+">
+          </div>
+          <div class="form-group">
+            <label>Happy Clients</label>
+            <input type="text" id="cfgStatClients" placeholder="40+">
+          </div>
+          <div class="form-group">
+            <label>Years Experience</label>
+            <input type="text" id="cfgStatExperience" placeholder="3+">
+          </div>
+          <div class="form-group">
+            <label>Support</label>
+            <input type="text" id="cfgStatSupport" placeholder="24/7">
+          </div>
+          <button class="btn-admin btn-add" onclick="saveSiteContent()">Save Content</button>
+          <p id="contentMsg" class="msg-text msg-success"></p>
+        </div>
+
+        <!-- TAB: THEME -->
+        <div class="admin-tab-panel" id="tabPanel-theme">
+          <div class="form-group">
+            <label>Accent Color</label>
+            <input type="color" id="themeAccent" value="#3b82f6" style="height:44px;padding:4px;">
+          </div>
+          <div class="form-group">
+            <label>Accent Light Color</label>
+            <input type="color" id="themeAccentLight" value="#60a5fa" style="height:44px;padding:4px;">
+          </div>
+          <div class="form-group">
+            <label>Background Color</label>
+            <input type="color" id="themeBg" value="#020617" style="height:44px;padding:4px;">
+          </div>
+          <div class="form-group">
+            <label>Card Background Color</label>
+            <input type="color" id="themeCard" value="#0f172a" style="height:44px;padding:4px;">
+          </div>
+          <div class="form-group">
+            <label>Text Primary Color</label>
+            <input type="color" id="themeTextPrimary" value="#f1f5f9" style="height:44px;padding:4px;">
+          </div>
+          <div class="form-group">
+            <label>Quick Presets</label>
+            <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-top:0.4rem;">
+              <button type="button" class="theme-preset-btn" onclick="applyThemePreset('blue')" style="background:#3b82f6;">Blue</button>
+              <button type="button" class="theme-preset-btn" onclick="applyThemePreset('purple')" style="background:#8b5cf6;">Purple</button>
+              <button type="button" class="theme-preset-btn" onclick="applyThemePreset('green')" style="background:#10b981;">Green</button>
+              <button type="button" class="theme-preset-btn" onclick="applyThemePreset('red')" style="background:#ef4444;">Red</button>
+              <button type="button" class="theme-preset-btn" onclick="applyThemePreset('orange')" style="background:#f97316;">Orange</button>
+              <button type="button" class="theme-preset-btn" onclick="applyThemePreset('pink')" style="background:#ec4899;">Pink</button>
+            </div>
+          </div>
+          <button class="btn-admin btn-add" onclick="saveTheme()">Save & Apply Theme</button>
+          <button class="btn-admin" style="background:transparent;border:1px solid rgba(148,163,184,0.3);color:#cbd5e1;" onclick="resetTheme()">Reset to Default</button>
+          <p id="themeMsg" class="msg-text msg-success"></p>
+        </div>
+
+        <!-- TAB: REVIEWS -->
+        <div class="admin-tab-panel" id="tabPanel-reviews">
+          <h3 style="margin-bottom:1rem;font-size:0.95rem;color:#cbd5e1;">Pending Reviews</h3>
+          <div class="project-list-admin" id="pendingReviewsAdmin">
+            <p style="color:#94a3b8;text-align:center;">Loading...</p>
+          </div>
+          <h3 style="margin-top:1.8rem;margin-bottom:1rem;font-size:0.95rem;color:#cbd5e1;">Approved Reviews</h3>
+          <div class="project-list-admin" id="approvedReviewsAdmin">
+            <p style="color:#94a3b8;text-align:center;">Loading...</p>
+          </div>
+        </div>
+
+        <!-- TAB: FAQ -->
+        <div class="admin-tab-panel" id="tabPanel-faq">
+          <div class="form-group">
+            <label>Question</label>
+            <input type="text" id="faqQuestion" placeholder="What services do you offer?">
+          </div>
+          <div class="form-group">
+            <label>Answer</label>
+            <textarea id="faqAnswer" rows="3" placeholder="We offer..."></textarea>
+          </div>
+          <button class="btn-admin btn-add" onclick="addFaq()">Add FAQ</button>
+          <p id="faqMsg" class="msg-text msg-success"></p>
+          <h3 style="margin-top:1.8rem;margin-bottom:1rem;font-size:0.95rem;color:#cbd5e1;">Existing FAQs</h3>
+          <div class="project-list-admin" id="faqListAdmin">
+            <p style="color:#94a3b8;text-align:center;">Loading...</p>
+          </div>
+        </div>
+
+        <!-- TAB: MESSAGES -->
+        <div class="admin-tab-panel" id="tabPanel-messages">
+          <h3 style="margin-bottom:1rem;font-size:0.95rem;color:#cbd5e1;">Inbox</h3>
+          <div class="msg-chat-list" id="messagesListAdmin">
+            <p style="color:#94a3b8;text-align:center;">Loading...</p>
+          </div>
+        </div>
+
+        <!-- TAB: ANALYTICS -->
+        <div class="admin-tab-panel" id="tabPanel-analytics">
+          <div class="analytics-stats-grid">
+            <div class="analytics-stat-card">
+              <div class="analytics-stat-value" id="statTotalVisits">—</div>
+              <div class="analytics-stat-label">Total Visits</div>
+            </div>
+            <div class="analytics-stat-card">
+              <div class="analytics-stat-value" id="statTodayVisits">—</div>
+              <div class="analytics-stat-label">Today's Visits</div>
+            </div>
+            <div class="analytics-stat-card">
+              <div class="analytics-stat-value" id="statProjectCount">—</div>
+              <div class="analytics-stat-label">Projects</div>
+            </div>
+            <div class="analytics-stat-card">
+              <div class="analytics-stat-value" id="statReviewCount">—</div>
+              <div class="analytics-stat-label">Approved Reviews</div>
+            </div>
+            <div class="analytics-stat-card">
+              <div class="analytics-stat-value" id="statMessageCount">—</div>
+              <div class="analytics-stat-label">Messages</div>
+            </div>
+          </div>
+          <h3 style="margin-top:1.8rem;margin-bottom:1rem;font-size:0.95rem;color:#cbd5e1;">Last 7 Days</h3>
+          <div class="project-list-admin" id="dailyVisitsAdmin">
+            <p style="color:#94a3b8;text-align:center;">Loading...</p>
+          </div>
+        </div>
+
+        <!-- TAB: SEO -->
+        <div class="admin-tab-panel" id="tabPanel-seo">
+          <div class="form-group">
+            <label>Page Title (browser tab)</label>
+            <input type="text" id="seoTitle" placeholder="NIMAH DEV STUDIO | Future Digital Experiences">
+          </div>
+          <div class="form-group">
+            <label>Meta Description</label>
+            <textarea id="seoDescription" rows="2" placeholder="Professional websites, apps, AI chatbots..."></textarea>
+          </div>
+          <div class="form-group">
+            <label>Meta Keywords (comma separated)</label>
+            <input type="text" id="seoKeywords" placeholder="web development, mobile apps, AI chatbots">
+          </div>
+          <div class="form-group">
+            <label>Favicon URL</label>
+            <input type="text" id="seoFavicon" placeholder="https://...">
+          </div>
+          <div class="form-group">
+            <label>Social Share Image (OG Image URL)</label>
+            <input type="text" id="seoOgImage" placeholder="https://...">
+          </div>
+          <div class="form-group">
+            <label>Google Analytics Measurement ID (optional)</label>
+            <input type="text" id="seoGaId" placeholder="G-XXXXXXXXXX">
+          </div>
+          <button class="btn-admin btn-add" onclick="saveSeoSettings()">Save SEO Settings</button>
+          <p id="seoMsg" class="msg-text msg-success"></p>
+        </div>
+
+        <!-- TAB: ADMIN USERS -->
+        <div class="admin-tab-panel" id="tabPanel-users">
+          <div class="form-group">
+            <label>New Username</label>
+            <input type="text" id="newAdminUsername" placeholder="developer2">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="text" id="newAdminPassword" placeholder="strong password">
+          </div>
+          <button class="btn-admin btn-add" onclick="addAdminUser()">Add Admin User</button>
+          <p id="userMsg" class="msg-text msg-success"></p>
+          <h3 style="margin-top:1.8rem;margin-bottom:1rem;font-size:0.95rem;color:#cbd5e1;">Existing Admin Accounts</h3>
+          <div class="project-list-admin" id="adminUsersListAdmin">
+            <p style="color:#94a3b8;text-align:center;">Loading...</p>
+          </div>
+        </div>
+        </div>
+        </div>
+
+        <button class="btn-admin btn-logout" onclick="adminLogout()">Logout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== FIREBASE v12.16.0 MODULE (Realtime Database) ==================== -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-app.js";
+    import {
+      getDatabase, ref, push, set, update, remove, onValue, get
+    } from "https://www.gstatic.com/firebasejs/12.16.0/firebase-database.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyD6OFWQcosYN6T-UV6fFkTVZPX-4gn69tA",
+      authDomain: "nimah-dev-protopolio-site.firebaseapp.com",
+      databaseURL: "https://nimah-dev-protopolio-site-default-rtdb.firebaseio.com",
+      projectId: "nimah-dev-protopolio-site",
+      storageBucket: "nimah-dev-protopolio-site.firebasestorage.app",
+      messagingSenderId: "584644121079",
+      appId: "1:584644121079:web:f639c0e6bbc4422c031ef2"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+    window.db = db;
+
+    // ---- Compatibility shim: mimics the Firestore-style API used throughout
+    // the rest of the code, but backed by Realtime Database underneath. ----
+
+    // collection(db, 'projects') -> just returns the path string
+    function collection(dbRef, path) { return path; }
+
+    // doc(db, 'settings', 'site') -> path string 'settings/site'
+    function doc(dbRef, ...segments) { return segments.join('/'); }
+
+    // addDoc(path, data) -> push new child under path with data
+    function addDoc(path, data) {
+      const listRef = ref(db, path);
+      const newRef = push(listRef);
+      return set(newRef, data).then(() => ({ id: newRef.key }));
+    }
+
+    // setDoc(path, data, {merge}) -> update (merge) or set (overwrite) at path
+    function setDoc(path, data, options) {
+      const nodeRef = ref(db, path);
+      if (options && options.merge) {
+        return update(nodeRef, data);
+      }
+      return set(nodeRef, data);
+    }
+
+    // getDoc(path) -> mimics Firestore DocumentSnapshot { exists(), data() }
+    function getDoc(path) {
+      const nodeRef = ref(db, path);
+      return get(nodeRef).then(snap => ({
+        exists: () => snap.exists(),
+        data: () => snap.val()
+      }));
+    }
+
+    // deleteDoc(path) -> remove node
+    function deleteDoc(path) {
+      return remove(ref(db, path));
+    }
+
+    // query(path, orderBy(...)) -> just returns path (ordering handled client-side below)
+    function query(path, ...args) { return path; }
+    function orderBy(field, direction) { return { field, direction }; }
+
+    // onSnapshot(path, callback) -> mimics Firestore QuerySnapshot with forEach + empty
+    function onSnapshot(path, callback) {
+      const listRef = ref(db, path);
+      return onValue(listRef, (snap) => {
+        const val = snap.val() || {};
+        const entries = Object.keys(val).map(key => ({
+          id: key,
+          data: () => val[key]
+        }));
+        // sort by createdAt descending if present (mimics orderBy('createdAt','desc'))
+        entries.sort((a, b) => {
+          const ta = (a.data().createdAt || 0);
+          const tb = (b.data().createdAt || 0);
+          return tb - ta;
+        });
+        callback({
+          empty: entries.length === 0,
+          forEach: (fn) => entries.forEach(e => fn(e))
+        });
+      });
+    }
+
+    function serverTimestamp() {
+      return Date.now();
+    }
+
+    window.FirebaseModules = {
+      collection, addDoc, query, orderBy, onSnapshot, deleteDoc, doc, getDoc, setDoc, serverTimestamp
+    };
+
+    console.log('NIMAH DEV STUDIO - Firebase Realtime Database Connected Successfully');
+    console.log('Admin Panel Access: Press 2026 three times anywhere on the page, or tap the footer year 3 times.');
+  </script>
+
+  <!-- ==================== MAIN SCRIPTS ==================== -->
+  <script>
+    // ========== PRELOADER ==========
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        document.getElementById('preloader').classList.add('hide');
+      }, 1700);
+    });
+
+    // ========== NAV SCROLL ==========
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // ========== BACK TO TOP BUTTON ==========
+    const backToTopBtn = document.getElementById('backToTopBtn');
+    if (backToTopBtn) {
+      window.addEventListener('scroll', () => {
+        backToTopBtn.classList.toggle('show', window.scrollY > 500);
+      });
+    }
+
+    // ========== LIVE 3D TILT (follows cursor in real time) ==========
+    function enableLiveTilt(selector, intensity, scale) {
+      intensity = intensity || 10;
+      scale = scale || 1.03;
+      document.querySelectorAll(selector).forEach(el => {
+        if (el.dataset.tiltBound === '1') return;
+        el.dataset.tiltBound = '1';
+        el.style.transformStyle = 'preserve-3d';
+        el.style.willChange = 'transform';
+        el.style.transition = 'transform 0.1s ease-out';
+        el.addEventListener('mouseenter', () => {
+          el.style.animation = 'none';
+        });
+        el.addEventListener('mousemove', (e) => {
+          const rect = el.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          const rotateY = ((x / rect.width) - 0.5) * intensity;
+          const rotateX = -((y / rect.height) - 0.5) * intensity;
+          el.style.transform = `perspective(900px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(${scale}, ${scale}, ${scale}) translateY(-6px)`;
+        });
+        el.addEventListener('mouseleave', () => {
+          el.style.transition = 'transform 0.5s ease';
+          el.style.transform = '';
+          setTimeout(() => {
+            el.style.transition = 'transform 0.1s ease-out';
+            el.style.animation = '';
+          }, 500);
+        });
+      });
+    }
+    // Re-apply whenever cards are re-rendered (projects/services load async)
+    function initLiveTiltAll() {
+      enableLiveTilt('.service-card', 9, 1.02);
+      enableLiveTilt('.project-card', 8, 1.015);
+      enableLiveTilt('.process-step', 9, 1.02);
+      enableLiveTilt('.stat-item', 10, 1.03);
+      enableLiveTilt('.hero-banner', 14, 1.03);
+    }
+    initLiveTiltAll();
+    // Services/projects render async from Firebase — re-bind tilt shortly after they populate
+    setTimeout(initLiveTiltAll, 1200);
+    setTimeout(initLiveTiltAll, 3000);
+
+    // ========== MOBILE MENU ==========
+    const hamburger = document.getElementById('hamburgerBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+      document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+    });
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('active');
+        document.body.style.overflow = '';
+      });
+    });
+
+    // ========== SERVICES DATA ==========
+    const services = [
+      { num: '01', name: 'Business Websites', desc: 'Professional company and portfolio websites tailored to your brand, with clean design and fast performance.' },
+      { num: '02', name: 'E-Commerce Solutions', desc: 'Full-featured online stores with product catalogs, secure payment gateways, and inventory management.' },
+      { num: '03', name: 'Mobile App Development', desc: 'Native and cross-platform mobile applications designed for seamless user experiences on Android and iOS.' },
+      { num: '04', name: 'AI Chatbot Development', desc: 'Intelligent conversational interfaces powered by advanced natural language processing for customer support and sales.' },
+      { num: '05', name: 'Booking & Reservation Systems', desc: 'Custom booking platforms for hotels, restaurants, salons, clinics, and service-based businesses.' },
+      { num: '06', name: 'Admin Dashboards & Panels', desc: 'Real-time management panels to control content, orders, users, and analytics — no coding needed.' },
+      { num: '07', name: 'School & Institute Management Systems', desc: 'Complete systems for student records, attendance, results, and communication for educational institutes.' },
+      { num: '08', name: 'Landing Pages & Personal Sites', desc: 'Fast, conversion-focused landing pages, portfolios, and personal branding websites.' },
+      { num: '09', name: 'Custom Software Development', desc: 'Tailored, enterprise-grade software built from scratch to match your exact business requirements.' },
+      { num: '10', name: 'Firebase & Cloud Solutions', desc: 'Cloud-based real-time database architecture with authentication, storage, and hosting systems.' },
+      { num: '11', name: 'Website Redesign & Maintenance', desc: 'Modernizing outdated websites and ongoing support, updates, and performance optimization.' },
+      { num: '12', name: 'Any Custom Idea', desc: 'Have something different in mind? We build websites and apps exactly the way you want — no matter the industry or idea.' }
+    ];
+    document.getElementById('servicesGrid').innerHTML = services.map(s => `
+      <div class="service-card">
+        <div class="service-num">${s.num}</div>
+        <h3>${s.name}</h3>
+        <p>${s.desc}</p>
+      </div>
+    `).join('');
+
+    // ========== LOAD PROJECTS (PUBLIC) ==========
+    function loadPublicProjects() {
+      if (!window.db || !window.FirebaseModules) {
+        setTimeout(loadPublicProjects, 200);
+        return;
+      }
+      const { collection, query, orderBy, onSnapshot } = window.FirebaseModules;
+      const db = window.db;
+      const projectsGrid = document.getElementById('projectsGrid');
+      const q = query(collection(db, 'projects'), orderBy('createdAt', 'desc'));
+      
+      // Placeholder demo projects shown until real ones are added via the admin panel
+      // Generates a simple original browser/app mockup graphic (no external stock images/copyright)
+      function mockupSVG(iconPath, label) {
+        const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#0f172a"/>
+              <stop offset="1" stop-color="#1e293b"/>
+            </linearGradient>
+          </defs>
+          <rect width="600" height="400" fill="url(#g)"/>
+          <rect x="24" y="24" width="552" height="40" rx="8" fill="#0b1220"/>
+          <circle cx="46" cy="44" r="6" fill="#ef4444"/>
+          <circle cx="66" cy="44" r="6" fill="#f59e0b"/>
+          <circle cx="86" cy="44" r="6" fill="#22c55e"/>
+          <rect x="24" y="84" width="552" height="270" rx="10" fill="#0b1220" opacity="0.5"/>
+          <g transform="translate(255,150)">${iconPath}</g>
+          <text x="300" y="325" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#93c5fd" text-anchor="middle">${label}</text>
+        </svg>`;
+        return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+      }
+      const ICONS = {
+        globe: '<circle cx="45" cy="45" r="42" fill="none" stroke="#3b82f6" stroke-width="5"/><ellipse cx="45" cy="45" rx="18" ry="42" fill="none" stroke="#3b82f6" stroke-width="4"/><line x1="3" y1="45" x2="87" y2="45" stroke="#3b82f6" stroke-width="4"/>',
+        phone: '<rect x="18" y="0" width="54" height="90" rx="10" fill="none" stroke="#3b82f6" stroke-width="5"/><line x1="18" y1="72" x2="72" y2="72" stroke="#3b82f6" stroke-width="4"/>',
+        chat: '<path d="M0 10 h90 v55 h-55 l-20 20 v-20 h-15 z" fill="none" stroke="#3b82f6" stroke-width="5" stroke-linejoin="round"/><circle cx="25" cy="37" r="4" fill="#3b82f6"/><circle cx="45" cy="37" r="4" fill="#3b82f6"/><circle cx="65" cy="37" r="4" fill="#3b82f6"/>',
+        dashboard: '<rect x="0" y="35" width="16" height="45" fill="#3b82f6"/><rect x="24" y="15" width="16" height="65" fill="#60a5fa"/><rect x="48" y="45" width="16" height="35" fill="#3b82f6"/><rect x="72" y="0" width="16" height="80" fill="#60a5fa"/>',
+        calendar: '<rect x="0" y="10" width="90" height="70" rx="8" fill="none" stroke="#3b82f6" stroke-width="5"/><line x1="0" y1="32" x2="90" y2="32" stroke="#3b82f6" stroke-width="5"/><line x1="22" y1="0" x2="22" y2="20" stroke="#3b82f6" stroke-width="5"/><line x1="68" y1="0" x2="68" y2="20" stroke="#3b82f6" stroke-width="5"/>',
+        cap: '<path d="M45 5 L90 28 L45 51 L0 28 Z" fill="none" stroke="#3b82f6" stroke-width="5" stroke-linejoin="round"/><path d="M22 37 v22 c0 8 46 8 46 0 v-22" fill="none" stroke="#3b82f6" stroke-width="5"/>',
+        cart: '<path d="M0 0 h12 l10 55 h55 l10 -40 h-70" fill="none" stroke="#3b82f6" stroke-width="5" stroke-linejoin="round"/><circle cx="30" cy="72" r="8" fill="#3b82f6"/><circle cx="70" cy="72" r="8" fill="#3b82f6"/>'
+      };
+      const DEMO_PROJECTS = [
+        {
+          image: mockupSVG(ICONS.globe, 'Business Website'),
+          category: 'Web Development',
+          name: 'Corporate Business Website',
+          description: 'A fast, responsive corporate website with modern UI, SEO-friendly structure, and an easy-to-manage content system.',
+          technologies: 'HTML, CSS, JavaScript, Firebase'
+        },
+        {
+          image: mockupSVG(ICONS.phone, 'Mobile App'),
+          category: 'Mobile App',
+          name: 'E-Commerce Mobile App',
+          description: 'A cross-platform shopping app with product catalog, cart, and secure checkout built for a growing online store.',
+          technologies: 'Flutter, Firebase, REST API'
+        },
+        {
+          image: mockupSVG(ICONS.chat, 'AI Chatbot'),
+          category: 'AI Chatbot',
+          name: 'AI Customer Support Chatbot',
+          description: 'A smart chatbot integrated into a business site to answer FAQs, capture leads, and reduce support workload 24/7.',
+          technologies: 'AI/NLP, Node.js, Widget Integration'
+        },
+        {
+          image: mockupSVG(ICONS.dashboard, 'Admin Dashboard'),
+          category: 'Web App',
+          name: 'Custom Admin Dashboard',
+          description: 'A real-time admin panel for managing content, orders, and analytics — no coding required to update the live site.',
+          technologies: 'JavaScript, Firebase, Chart.js'
+        },
+        {
+          image: mockupSVG(ICONS.calendar, 'Booking System'),
+          category: 'Booking System',
+          name: 'Hotel Booking & Reservation System',
+          description: 'An online booking platform with real-time availability, guest details, and automated confirmation for a hospitality business.',
+          technologies: 'JavaScript, Firebase, Payment Gateway'
+        },
+        {
+          image: mockupSVG(ICONS.cap, 'School System'),
+          category: 'Management System',
+          name: 'School Management System',
+          description: 'A complete system for managing student records, attendance, results, and teacher-parent communication for an educational institute.',
+          technologies: 'JavaScript, Firebase, Auth'
+        },
+        {
+          image: mockupSVG(ICONS.cart, 'Restaurant Ordering'),
+          category: 'E-Commerce',
+          name: 'Restaurant Online Ordering Website',
+          description: 'A food ordering website with live menu, cart, and order tracking, letting customers order directly from a restaurant online.',
+          technologies: 'JavaScript, Firebase, Payment Gateway'
+        }
+      ];
+
+      onSnapshot(q, (snap) => {
+        if (snap.empty) {
+          projectsGrid.innerHTML = '';
+          DEMO_PROJECTS.forEach(d => {
+            const card = document.createElement('div');
+            card.className = 'project-card';
+            card.innerHTML = `
+              <div class="project-card-img-wrap"><img src="${d.image}" alt="${d.name}" class="project-card-img" loading="lazy"></div>
+              <div class="project-card-body">
+                <span class="project-cat">${d.category}</span>
+                <h3 class="project-title">${d.name}</h3>
+                <p class="project-desc">${d.description}</p>
+                <div class="project-tags">${d.technologies.split(',').map(t => `<span class="tag">${t.trim()}</span>`).join('')}</div>
+                <span style="display:inline-block;margin-top:0.7rem;color:var(--text-muted);font-size:0.75rem;font-style:italic;">Demo preview</span>
+              </div>`;
+            projectsGrid.appendChild(card);
+          });
+          return;
+        }
+        projectsGrid.innerHTML = '';
+        snap.forEach(docSnap => {
+          const d = docSnap.data();
+          const imgs = (d.images && d.images.length) ? d.images : [d.image || 'https://placehold.co/600x300/0f172a/3b82f6?text=NIMAH+DEV+STUDIO'];
+          const card = document.createElement('div');
+          card.className = 'project-card';
+          const galleryId = 'gal_' + docSnap.id;
+          const slidesHtml = imgs.map((src, i) => `<img src="${src}" alt="${d.name}" class="project-card-img" loading="lazy" style="display:${i === 0 ? 'block' : 'none'};">`).join('');
+          const dotsHtml = imgs.length > 1 ? `<div class="gallery-dots">${imgs.map((_, i) => `<span class="gallery-dot${i === 0 ? ' active' : ''}" onclick="showGallerySlide('${galleryId}', ${i})"></span>`).join('')}</div>` : '';
+          const arrowsHtml = imgs.length > 1 ? `
+            <button type="button" class="gallery-arrow gallery-arrow-left" onclick="shiftGallerySlide('${galleryId}', -1)">‹</button>
+            <button type="button" class="gallery-arrow gallery-arrow-right" onclick="shiftGallerySlide('${galleryId}', 1)">›</button>` : '';
+          card.innerHTML = `
+            <div class="project-card-img-wrap" id="${galleryId}" data-index="0" data-count="${imgs.length}">
+              ${slidesHtml}
+              ${arrowsHtml}
+              ${dotsHtml}
+            </div>
+            <div class="project-card-body">
+              <span class="project-cat">${d.category || 'General'}</span>
+              <h3 class="project-title">${d.name || 'Untitled'}</h3>
+              <p class="project-desc">${d.description || ''}</p>
+              <div class="project-tags">${(d.technologies || '').split(',').map(t => `<span class="tag">${t.trim()}</span>`).join('')}</div>
+              ${d.demoUrl ? `<a href="${d.demoUrl}" target="_blank" style="display:inline-block;margin-top:0.7rem;color:#60a5fa;text-decoration:none;font-weight:600;font-size:0.82rem;">View Demo</a>` : ''}
+            </div>`;
+          projectsGrid.appendChild(card);
+        });
+      });
+    }
+    window.showGallerySlide = function(galleryId, index) {
+      const wrap = document.getElementById(galleryId);
+      if (!wrap) return;
+      const imgs = wrap.querySelectorAll('.project-card-img');
+      const dots = wrap.querySelectorAll('.gallery-dot');
+      imgs.forEach((img, i) => img.style.display = i === index ? 'block' : 'none');
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === index));
+      wrap.dataset.index = index;
+    };
+    window.shiftGallerySlide = function(galleryId, dir) {
+      const wrap = document.getElementById(galleryId);
+      if (!wrap) return;
+      const count = parseInt(wrap.dataset.count, 10);
+      let next = (parseInt(wrap.dataset.index, 10) + dir + count) % count;
+      window.showGallerySlide(galleryId, next);
+    };
+    loadPublicProjects();
+    loadSiteContent();
+    loadTheme();
+    loadPublicReviews();
+    loadPublicFaqs();
+    loadSeoSettings();
+    trackVisit();
+
+    // ========== REVIEWS SYSTEM ==========
+    let selectedStarRating = 0;
+    (function setupStarPicker() {
+      const stars = document.querySelectorAll('#starRatingInput .star-pick');
+      stars.forEach(star => {
+        star.addEventListener('click', function() {
+          selectedStarRating = parseInt(this.dataset.value, 10);
+          stars.forEach(s => {
+            s.classList.toggle('selected', parseInt(s.dataset.value, 10) <= selectedStarRating);
+          });
+        });
+      });
+    })();
+
+    function loadPublicReviews() {
+      if (!window.db || !window.FirebaseModules) {
+        setTimeout(loadPublicReviews, 200);
+        return;
+      }
+      const { collection, query, orderBy, onSnapshot } = window.FirebaseModules;
+      const db = window.db;
+      const grid = document.getElementById('reviewsGrid');
+      const q = query(collection(db, 'reviews'), orderBy('createdAt', 'desc'));
+      onSnapshot(q, (snap) => {
+        const approved = [];
+        snap.forEach(docSnap => {
+          const d = docSnap.data();
+          if (d.approved) approved.push(d);
+        });
+        if (approved.length === 0) {
+          grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);grid-column:1/-1;padding:1rem;">No reviews yet. Be the first!</p>';
+          return;
+        }
+        grid.innerHTML = approved.map(d => `
+          <div class="review-card">
+            <div class="review-stars">${'★'.repeat(d.rating || 5)}${'☆'.repeat(5 - (d.rating || 5))}</div>
+            <p class="review-text">"${(d.message || '').replace(/</g, '&lt;')}"</p>
+            <div class="review-author">${(d.name || 'Anonymous').replace(/</g, '&lt;')}</div>
+          </div>
+        `).join('');
+      });
+    }
+
+    const reviewFormEl = document.getElementById('reviewForm');
+    if (reviewFormEl) {
+      reviewFormEl.addEventListener('submit', function(e) {
+        e.preventDefault();
+        if (!window.db || !window.FirebaseModules) {
+          alert('System initializing. Please try again.');
+          return;
+        }
+        if (selectedStarRating === 0) {
+          alert('Please select a star rating.');
+          return;
+        }
+        const { collection, addDoc, serverTimestamp } = window.FirebaseModules;
+        const db = window.db;
+        addDoc(collection(db, 'reviews'), {
+          name: document.getElementById('reviewName').value.trim(),
+          rating: selectedStarRating,
+          message: document.getElementById('reviewMessage').value.trim(),
+          approved: false,
+          createdAt: serverTimestamp()
+        }).then(() => {
+          const msgEl = document.getElementById('reviewSubmitMsg');
+          msgEl.textContent = 'Thank you! Your review is pending approval.';
+          reviewFormEl.reset();
+          selectedStarRating = 0;
+          document.querySelectorAll('#starRatingInput .star-pick').forEach(s => s.classList.remove('selected'));
+          setTimeout(() => msgEl.textContent = '', 4000);
+        }).catch(() => alert('Error submitting review.'));
+      });
+    }
+
+    function loadAdminReviews() {
+      if (!window.db || !window.FirebaseModules) return;
+      const { collection, query, orderBy, onSnapshot, doc: docFn, deleteDoc, setDoc } = window.FirebaseModules;
+      const db = window.db;
+      const pendingList = document.getElementById('pendingReviewsAdmin');
+      const approvedList = document.getElementById('approvedReviewsAdmin');
+      const q = query(collection(db, 'reviews'), orderBy('createdAt', 'desc'));
+      onSnapshot(q, (snap) => {
+        const pending = [];
+        const approved = [];
+        snap.forEach(docSnap => {
+          const d = docSnap.data();
+          const item = { id: docSnap.id, ...d };
+          if (d.approved) approved.push(item); else pending.push(item);
+        });
+
+        pendingList.innerHTML = pending.length === 0
+          ? '<p style="color:#94a3b8;text-align:center;">No pending reviews.</p>'
+          : pending.map(r => `
+            <div class="project-item-admin" style="flex-direction:column;align-items:flex-start;gap:0.5rem;">
+              <span><strong>${(r.name||'').replace(/</g,'&lt;')}</strong> — ${'★'.repeat(r.rating||0)} — "${(r.message||'').replace(/</g,'&lt;')}"</span>
+              <div style="display:flex;gap:0.5rem;">
+                <button class="btn-delete" style="background:#10b981;" onclick="window.approveReview('${r.id}')">Approve</button>
+                <button class="btn-delete" onclick="window.deleteReview('${r.id}')">Reject</button>
+              </div>
+            </div>`).join('');
+
+        approvedList.innerHTML = approved.length === 0
+          ? '<p style="color:#94a3b8;text-align:center;">No approved reviews.</p>'
+          : approved.map(r => `
+            <div class="project-item-admin" style="flex-direction:column;align-items:flex-start;gap:0.5rem;">
+              <span><strong>${(r.name||'').replace(/</g,'&lt;')}</strong> — ${'★'.repeat(r.rating||0)} — "${(r.message||'').replace(/</g,'&lt;')}"</span>
+              <button class="btn-delete" onclick="window.deleteReview('${r.id}')">Delete</button>
+            </div>`).join('');
+      });
+    }
+
+    window.approveReview = function(id) {
+      const { doc: docFn, setDoc } = window.FirebaseModules;
+      setDoc(docFn(window.db, 'reviews', id), { approved: true }, { merge: true });
+    };
+
+    window.deleteReview = function(id) {
+      const { doc: docFn, deleteDoc } = window.FirebaseModules;
+      if (confirm('Delete this review?')) {
+        deleteDoc(docFn(window.db, 'reviews', id));
+      }
+    };
+
+    // ========== ADMIN PANEL FUNCTIONS (Login-gated) ==========
+    let currentAdminUser = null;
+
+    window.openAdminPanel = function() {
+      document.getElementById('adminPanel').classList.add('active');
+      document.getElementById('mainWebsite').style.display = 'none';
+      const bubble = document.getElementById('chatBubble');
+      if (bubble) bubble.style.display = 'none';
+      document.body.style.overflow = 'hidden';
+      document.getElementById('adminLoginCard').style.display = 'block';
+      document.getElementById('adminDashboardCard').style.display = 'none';
+      document.getElementById('loginUsername').value = '';
+      document.getElementById('loginPassword').value = '';
+      document.getElementById('loginMsg').textContent = '';
+      seedDefaultAdmin();
+    };
+
+    window.closeAdminPanel = function() {
+      document.getElementById('adminPanel').classList.remove('active');
+      document.getElementById('mainWebsite').style.display = 'block';
+      const bubble = document.getElementById('chatBubble');
+      if (bubble) bubble.style.display = 'flex';
+      document.body.style.overflow = '';
+    };
+
+    window.adminLogout = function() {
+      currentAdminUser = null;
+      closeAdminPanel();
+    };
+
+    function seedDefaultAdmin() {
+      if (!window.db || !window.FirebaseModules) { setTimeout(seedDefaultAdmin, 200); return; }
+      const { doc: docFn, getDoc, setDoc } = window.FirebaseModules;
+      getDoc(docFn(window.db, 'adminUsers', 'admin')).then(snap => {
+        if (!snap.exists()) {
+          setDoc(docFn(window.db, 'adminUsers', 'admin'), { password: 'nimahdev0717' });
+        }
+      }).catch(err => console.error('Seed admin error:', err));
+    }
+
+    window.adminLoginAttempt = function() {
+      const username = document.getElementById('loginUsername').value.trim() || 'admin';
+      const password = document.getElementById('loginPassword').value;
+      const msgEl = document.getElementById('loginMsg');
+      if (!window.db || !window.FirebaseModules) {
+        msgEl.textContent = 'System initializing, try again.';
+        return;
+      }
+      const { doc: docFn, getDoc } = window.FirebaseModules;
+      getDoc(docFn(window.db, 'adminUsers', username)).then(snap => {
+        if (snap.exists() && snap.data().password === password) {
+          currentAdminUser = username;
+          document.getElementById('adminLoginCard').style.display = 'none';
+          document.getElementById('adminDashboardCard').style.display = 'block';
+          document.getElementById('loggedInAs').textContent = 'Logged in as: ' + username;
+          msgEl.textContent = '';
+          loadAdminProjects();
+          loadAdminReviews();
+          loadAdminFaqs();
+          loadAdminMessages();
+          loadAnalyticsData();
+          loadSeoSettingsIntoForm();
+          loadAdminUsersList();
+        } else {
+          msgEl.textContent = 'Invalid username or password.';
+        }
+      }).catch(() => { msgEl.textContent = 'Login error, try again.'; });
+    };
+
+    window.addProject = function() {
+      const { collection, addDoc, serverTimestamp } = window.FirebaseModules;
+      const img1 = document.getElementById('projImage').value;
+      const img2 = document.getElementById('projImage2').value;
+      const img3 = document.getElementById('projImage3').value;
+      const images = [img1, img2, img3].filter(Boolean);
+      const data = {
+        name: document.getElementById('projName').value,
+        image: img1,
+        images: images,
+        category: document.getElementById('projCategory').value,
+        description: document.getElementById('projDesc').value,
+        technologies: document.getElementById('projTech').value,
+        demoUrl: document.getElementById('projDemo').value,
+        createdAt: serverTimestamp()
+      };
+      addDoc(collection(window.db, 'projects'), data)
+        .then(() => {
+          document.getElementById('addMsg').textContent = 'Project added successfully!';
+          document.querySelectorAll('#tabPanel-projects input, #tabPanel-projects textarea').forEach(el => el.value = '');
+          setTimeout(() => document.getElementById('addMsg').textContent = '', 3000);
+        })
+        .catch(() => alert('Error adding project'));
+    };
+
+    function loadAdminProjects() {
+      const { collection, query, orderBy, onSnapshot, deleteDoc, doc } = window.FirebaseModules;
+      const list = document.getElementById('projectListAdmin');
+      const q = query(collection(window.db, 'projects'), orderBy('createdAt', 'desc'));
+      onSnapshot(q, (snap) => {
+        if (snap.empty) {
+          list.innerHTML = '<p style="color:#94a3b8;text-align:center;">No projects in database.</p>';
+          return;
+        }
+        list.innerHTML = '';
+        snap.forEach(docSnap => {
+          const d = docSnap.data();
+          const div = document.createElement('div');
+          div.className = 'project-item-admin';
+          div.innerHTML = `
+            <span><strong>${d.name}</strong> — ${d.category}</span>
+            <button class="btn-delete" onclick="window.deleteProject('${docSnap.id}')">Delete</button>`;
+          list.appendChild(div);
+        });
+      });
+    }
+
+    window.deleteProject = function(id) {
+      const { deleteDoc, doc } = window.FirebaseModules;
+      if (confirm('Are you sure you want to delete this project?')) {
+        deleteDoc(doc(window.db, 'projects', id));
+      }
+    };
+
+    // ========== ADMIN TABS ==========
+    window.switchAdminTab = function(tabName) {
+      document.querySelectorAll('.admin-tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.admin-tab-panel').forEach(p => p.classList.remove('active'));
+      document.getElementById('tabBtn-' + tabName).classList.add('active');
+      document.getElementById('tabPanel-' + tabName).classList.add('active');
+      if (tabName === 'analytics') loadAnalyticsData();
+      if (tabName === 'users') loadAdminUsersList();
+    };
+
+    // ========== IMAGE UPLOAD (base64 embed, no external service needed) ==========
+    window.handleImageUpload = function(fileInput, targetFieldId) {
+      const file = fileInput.files && fileInput.files[0];
+      if (!file) return;
+      if (file.size > 800 * 1024) {
+        alert('Image is large (' + Math.round(file.size/1024) + 'KB). For best performance keep images under 500KB. Continuing anyway...');
+      }
+      const reader = new FileReader();
+      reader.onload = function(e) {
+        document.getElementById(targetFieldId).value = e.target.result;
+      };
+      reader.onerror = function() {
+        alert('Error reading image file.');
+      };
+      reader.readAsDataURL(file);
+    };
+
+    // ========== SITE CONTENT (Firestore: settings/site) ==========
+    const DEFAULT_CONTENT = {
+      brandName: 'NIMAH DEV STUDIO',
+      logoUrl: 'https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg',
+      heroBadge: 'SOFTWARE DEVELOPMENT STUDIO',
+      heroTitle1: 'NIMAH DEV',
+      heroTitle2: 'STUDIO',
+      heroDesc: 'Building Future Digital Experiences — professional websites, mobile applications, AI chatbots, and custom digital solutions engineered for tomorrow.',
+      heroBanner: 'https://i.ibb.co/5g0yy40F/IMG-20260722-WA0002.jpg',
+      whatsapp: '94764833081',
+      email: 'nimahdev0987@gmail.com',
+      footerText: 'NIMAH DEV STUDIO. All rights reserved.',
+      statProjects: '50+',
+      statClients: '40+',
+      statExperience: '3+',
+      statSupport: '24/7'
+    };
+
+    function applyContentToSite(cfg) {
+      document.querySelectorAll('.nav-brand-name').forEach(el => el.textContent = cfg.brandName);
+      document.querySelectorAll('.nav-logo, .footer-logo').forEach(el => el.src = cfg.logoUrl);
+      const preloaderLogo = document.querySelector('.preloader-logo');
+      if (preloaderLogo) preloaderLogo.src = cfg.logoUrl;
+      const badgeEl = document.querySelector('.hero-badge');
+      if (badgeEl) badgeEl.innerHTML = '<span class="badge-dot"></span> ' + cfg.heroBadge;
+      const titleEl = document.querySelector('.hero-title');
+      if (titleEl) titleEl.innerHTML = cfg.heroTitle1 + '<br><span>' + cfg.heroTitle2 + '</span>';
+      const descEl = document.querySelector('.hero-desc');
+      if (descEl) descEl.textContent = cfg.heroDesc;
+      const bannerEl = document.querySelector('.hero-banner');
+      if (bannerEl) bannerEl.src = cfg.heroBanner;
+      document.querySelectorAll('a[href^="https://wa.me/"]').forEach(el => el.href = 'https://wa.me/' + cfg.whatsapp);
+      const waValueEl = document.querySelector('.contact-value a[href^="https://wa.me/"]');
+      if (waValueEl) waValueEl.textContent = '+' + cfg.whatsapp.replace(/(\d{2})(\d{2})(\d{3})(\d{2})(\d{2})/, '$1 $2 $3 $4 $5');
+      const emailEls = document.querySelectorAll('.contact-value');
+      emailEls.forEach(el => {
+        if (!el.querySelector('a')) el.textContent = cfg.email;
+      });
+      const footerTextEl = document.querySelector('.footer-text');
+      if (footerTextEl) {
+        footerTextEl.innerHTML = '&copy; <span id="footerYearTrigger" style="cursor:pointer;">2026</span> ' + cfg.footerText;
+        attachFooterTapListener();
+      }
+      const sp = document.getElementById('statProjects'); if (sp) sp.textContent = cfg.statProjects;
+      const sc = document.getElementById('statClients'); if (sc) sc.textContent = cfg.statClients;
+      const se = document.getElementById('statExperience'); if (se) se.textContent = cfg.statExperience;
+      const ss = document.getElementById('statSupport'); if (ss) ss.textContent = cfg.statSupport;
+    }
+
+    function loadSiteContent() {
+      if (!window.db || !window.FirebaseModules) {
+        setTimeout(loadSiteContent, 200);
+        return;
+      }
+      const { doc: docFn, getDoc } = window.FirebaseModules;
+      if (!getDoc) return;
+      getDoc(docFn(window.db, 'settings', 'site')).then(snap => {
+        const cfg = snap.exists() ? { ...DEFAULT_CONTENT, ...snap.data() } : DEFAULT_CONTENT;
+        applyContentToSite(cfg);
+        Object.keys(DEFAULT_CONTENT).forEach(key => {
+          const map = {
+            brandName: 'cfgBrandName', logoUrl: 'cfgLogoUrl', heroBadge: 'cfgHeroBadge',
+            heroTitle1: 'cfgHeroTitle1', heroTitle2: 'cfgHeroTitle2', heroDesc: 'cfgHeroDesc',
+            heroBanner: 'cfgHeroBanner', whatsapp: 'cfgWhatsapp', email: 'cfgEmail', footerText: 'cfgFooterText',
+            statProjects: 'cfgStatProjects', statClients: 'cfgStatClients', statExperience: 'cfgStatExperience', statSupport: 'cfgStatSupport'
+          };
+          const inputEl = document.getElementById(map[key]);
+          if (inputEl) inputEl.value = cfg[key];
+        });
+      }).catch(err => console.error('Load content error:', err));
+    }
+
+    window.saveSiteContent = function() {
+      const cfg = {
+        brandName: document.getElementById('cfgBrandName').value || DEFAULT_CONTENT.brandName,
+        logoUrl: document.getElementById('cfgLogoUrl').value || DEFAULT_CONTENT.logoUrl,
+        heroBadge: document.getElementById('cfgHeroBadge').value || DEFAULT_CONTENT.heroBadge,
+        heroTitle1: document.getElementById('cfgHeroTitle1').value || DEFAULT_CONTENT.heroTitle1,
+        heroTitle2: document.getElementById('cfgHeroTitle2').value || DEFAULT_CONTENT.heroTitle2,
+        heroDesc: document.getElementById('cfgHeroDesc').value || DEFAULT_CONTENT.heroDesc,
+        heroBanner: document.getElementById('cfgHeroBanner').value || DEFAULT_CONTENT.heroBanner,
+        whatsapp: document.getElementById('cfgWhatsapp').value || DEFAULT_CONTENT.whatsapp,
+        email: document.getElementById('cfgEmail').value || DEFAULT_CONTENT.email,
+        footerText: document.getElementById('cfgFooterText').value || DEFAULT_CONTENT.footerText,
+        statProjects: document.getElementById('cfgStatProjects').value || DEFAULT_CONTENT.statProjects,
+        statClients: document.getElementById('cfgStatClients').value || DEFAULT_CONTENT.statClients,
+        statExperience: document.getElementById('cfgStatExperience').value || DEFAULT_CONTENT.statExperience,
+        statSupport: document.getElementById('cfgStatSupport').value || DEFAULT_CONTENT.statSupport
+      };
+      const { doc: docFn, setDoc } = window.FirebaseModules;
+      setDoc(docFn(window.db, 'settings', 'site'), cfg, { merge: true }).then(() => {
+        applyContentToSite(cfg);
+        const msgEl = document.getElementById('contentMsg');
+        msgEl.textContent = 'Content saved & applied!';
+        setTimeout(() => msgEl.textContent = '', 3000);
+      }).catch(() => alert('Error saving content'));
+    };
+
+    // ========== THEME MANAGEMENT (Firestore: settings/theme) ==========
+    const THEME_PRESETS = {
+      blue:   { accent: '#3b82f6', accentLight: '#60a5fa', bg: '#020617', card: '#0f172a', textPrimary: '#f1f5f9' },
+      purple: { accent: '#8b5cf6', accentLight: '#a78bfa', bg: '#0a0514', card: '#1a1129', textPrimary: '#f5f3ff' },
+      green:  { accent: '#10b981', accentLight: '#34d399', bg: '#021410', card: '#0a2620', textPrimary: '#ecfdf5' },
+      red:    { accent: '#ef4444', accentLight: '#f87171', bg: '#160404', card: '#2a0a0a', textPrimary: '#fef2f2' },
+      orange: { accent: '#f97316', accentLight: '#fb923c', bg: '#1a0d02', card: '#2e1806', textPrimary: '#fff7ed' },
+      pink:   { accent: '#ec4899', accentLight: '#f472b6', bg: '#160210', card: '#2a0a20', textPrimary: '#fdf2f8' }
+    };
+
+    function applyThemeToSite(theme) {
+      const root = document.documentElement.style;
+      root.setProperty('--accent', theme.accent);
+      root.setProperty('--accent-light', theme.accentLight);
+      root.setProperty('--accent-glow', theme.accent);
+      root.setProperty('--bg-deep', theme.bg);
+      root.setProperty('--bg-card', theme.card);
+      root.setProperty('--text-primary', theme.textPrimary);
+    }
+
+    window.applyThemePreset = function(name) {
+      const t = THEME_PRESETS[name];
+      if (!t) return;
+      document.getElementById('themeAccent').value = t.accent;
+      document.getElementById('themeAccentLight').value = t.accentLight;
+      document.getElementById('themeBg').value = t.bg;
+      document.getElementById('themeCard').value = t.card;
+      document.getElementById('themeTextPrimary').value = t.textPrimary;
+      applyThemeToSite(t);
+    };
+
+    function loadTheme() {
+      if (!window.db || !window.FirebaseModules) {
+        setTimeout(loadTheme, 200);
+        return;
+      }
+      const { doc: docFn, getDoc } = window.FirebaseModules;
+      if (!getDoc) return;
+      getDoc(docFn(window.db, 'settings', 'theme')).then(snap => {
+        if (snap.exists()) {
+          const t = snap.data();
+          applyThemeToSite(t);
+          if (document.getElementById('themeAccent')) {
+            document.getElementById('themeAccent').value = t.accent || '#3b82f6';
+            document.getElementById('themeAccentLight').value = t.accentLight || '#60a5fa';
+            document.getElementById('themeBg').value = t.bg || '#020617';
+            document.getElementById('themeCard').value = t.card || '#0f172a';
+            document.getElementById('themeTextPrimary').value = t.textPrimary || '#f1f5f9';
+          }
+        }
+      }).catch(err => console.error('Load theme error:', err));
+    }
+
+    window.saveTheme = function() {
+      const theme = {
+        accent: document.getElementById('themeAccent').value,
+        accentLight: document.getElementById('themeAccentLight').value,
+        bg: document.getElementById('themeBg').value,
+        card: document.getElementById('themeCard').value,
+        textPrimary: document.getElementById('themeTextPrimary').value
+      };
+      const { doc: docFn, setDoc } = window.FirebaseModules;
+      setDoc(docFn(window.db, 'settings', 'theme'), theme, { merge: true }).then(() => {
+        applyThemeToSite(theme);
+        const msgEl = document.getElementById('themeMsg');
+        msgEl.textContent = 'Theme saved & applied!';
+        setTimeout(() => msgEl.textContent = '', 3000);
+      }).catch(() => alert('Error saving theme'));
+    };
+
+    window.resetTheme = function() {
+      const t = THEME_PRESETS.blue;
+      applyThemePreset('blue');
+      const { doc: docFn, setDoc } = window.FirebaseModules;
+      setDoc(docFn(window.db, 'settings', 'theme'), t, { merge: true }).then(() => {
+        const msgEl = document.getElementById('themeMsg');
+        msgEl.textContent = 'Theme reset to default!';
+        setTimeout(() => msgEl.textContent = '', 3000);
+      });
+    };
+
+    // ========== FAQ SYSTEM ==========
+    window.addFaq = function() {
+      const question = document.getElementById('faqQuestion').value.trim();
+      const answer = document.getElementById('faqAnswer').value.trim();
+      if (!question || !answer) { alert('Please fill in both question and answer.'); return; }
+      const { collection, addDoc, serverTimestamp } = window.FirebaseModules;
+      addDoc(collection(window.db, 'faqs'), { question, answer, createdAt: serverTimestamp() })
+        .then(() => {
+          document.getElementById('faqQuestion').value = '';
+          document.getElementById('faqAnswer').value = '';
+          const msgEl = document.getElementById('faqMsg');
+          msgEl.textContent = 'FAQ added!';
+          setTimeout(() => msgEl.textContent = '', 3000);
+        }).catch(() => alert('Error adding FAQ'));
+    };
+
+    function loadAdminFaqs() {
+      if (!window.db || !window.FirebaseModules) return;
+      const { collection, query, orderBy, onSnapshot, doc: docFn, deleteDoc } = window.FirebaseModules;
+      const q = query(collection(window.db, 'faqs'), orderBy('createdAt', 'desc'));
+      onSnapshot(q, (snap) => {
+        const list = document.getElementById('faqListAdmin');
+        if (!list) return;
+        if (snap.empty) {
+          list.innerHTML = '<p style="color:#94a3b8;text-align:center;">No FAQs yet.</p>';
+          return;
+        }
+        list.innerHTML = '';
+        snap.forEach(docSnap => {
+          const d = docSnap.data();
+          const div = document.createElement('div');
+          div.className = 'project-item-admin';
+          div.innerHTML = `
+            <span><strong>${(d.question||'').replace(/</g,'&lt;')}</strong></span>
+            <button class="btn-delete" onclick="window.deleteFaq('${docSnap.id}')">Delete</button>`;
+          list.appendChild(div);
+        });
+      });
+    }
+
+    window.deleteFaq = function(id) {
+      const { doc: docFn, deleteDoc } = window.FirebaseModules;
+      if (confirm('Delete this FAQ?')) deleteDoc(docFn(window.db, 'faqs', id));
+    };
+
+    function loadPublicFaqs() {
+      if (!window.db || !window.FirebaseModules) { setTimeout(loadPublicFaqs, 200); return; }
+      const { collection, query, orderBy, onSnapshot } = window.FirebaseModules;
+      const q = query(collection(window.db, 'faqs'), orderBy('createdAt', 'desc'));
+      onSnapshot(q, (snap) => {
+        const list = document.getElementById('faqPublicList');
+        if (!list) return;
+        if (snap.empty) {
+          list.innerHTML = '<p style="text-align:center;color:var(--text-muted);">No FAQs yet.</p>';
+          return;
+        }
+        const items = [];
+        snap.forEach(docSnap => items.push(docSnap.data()));
+        list.innerHTML = items.map((d, i) => `
+          <div class="faq-item" id="faqPublicItem${i}">
+            <div class="faq-question" onclick="toggleFaqItem(${i})">
+              <span>${(d.question||'').replace(/</g,'&lt;')}</span>
+              <span class="faq-question-icon">+</span>
+            </div>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">${(d.answer||'').replace(/</g,'&lt;')}</div>
+            </div>
+          </div>
+        `).join('');
+      });
+    }
+
+    window.toggleFaqItem = function(index) {
+      const item = document.getElementById('faqPublicItem' + index);
+      if (item) item.classList.toggle('open');
+    };
+
+    // ========== MESSAGES / INBOX SYSTEM ==========
+    const quickMessageFormEl = document.getElementById('quickMessageForm');
+    if (quickMessageFormEl) {
+      quickMessageFormEl.addEventListener('submit', function(e) {
+        e.preventDefault();
+        if (!window.db || !window.FirebaseModules) {
+          alert('System initializing. Please try again.');
+          return;
+        }
+        const { collection, addDoc, serverTimestamp } = window.FirebaseModules;
+        addDoc(collection(window.db, 'messages'), {
+          name: document.getElementById('qmName').value.trim(),
+          contact: document.getElementById('qmContact').value.trim(),
+          message: document.getElementById('qmMessage').value.trim(),
+          read: false,
+          createdAt: serverTimestamp()
+        }).then(() => {
+          const msgEl = document.getElementById('qmSubmitMsg');
+          msgEl.textContent = 'Message sent! We will get back to you soon.';
+          quickMessageFormEl.reset();
+          setTimeout(() => msgEl.textContent = '', 4000);
+        }).catch(() => alert('Error sending message.'));
+      });
+    }
+
+    function loadAdminMessages() {
+      if (!window.db || !window.FirebaseModules) return;
+      const { collection, query, orderBy, onSnapshot, doc: docFn, deleteDoc, setDoc } = window.FirebaseModules;
+      const q = query(collection(window.db, 'messages'), orderBy('createdAt', 'desc'));
+      onSnapshot(q, (snap) => {
+        const list = document.getElementById('messagesListAdmin');
+        if (!list) return;
+        if (snap.empty) {
+          list.innerHTML = '<p style="color:#94a3b8;text-align:center;">No messages yet.</p>';
+          return;
+        }
+        list.innerHTML = '';
+        snap.forEach(docSnap => {
+          const d = docSnap.data();
+          const name = (d.name || 'Unknown').replace(/</g, '&lt;');
+          const contact = (d.contact || '').replace(/</g, '&lt;');
+          const messageText = (d.message || '').replace(/</g, '&lt;');
+          const initials = (d.name || '?').trim().split(/\s+/).map(w => w[0]).slice(0, 2).join('').toUpperCase();
+          let timeStr = '';
+          try {
+            if (d.createdAt && d.createdAt.toDate) {
+              const dt = d.createdAt.toDate();
+              timeStr = dt.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' }) + ' · ' + dt.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+            }
+          } catch (e) {}
+          // Detect a phone number in the contact field to build a WhatsApp reply link
+          const digitsOnly = (d.contact || '').replace(/[^0-9]/g, '');
+          const isPhone = digitsOnly.length >= 9;
+          const waLink = isPhone ? `https://wa.me/${digitsOnly}?text=${encodeURIComponent('Hi ' + (d.name || '') + ', thanks for reaching out to NIMAH DEV STUDIO! ')}` : null;
+
+          const div = document.createElement('div');
+          div.className = 'msg-chat-item' + (d.read ? '' : ' unread');
+          div.innerHTML = `
+            <div class="msg-avatar">${initials || '?'}</div>
+            <div class="msg-chat-body">
+              <div class="msg-chat-top">
+                <span class="msg-chat-name">${name}</span>
+                <span class="msg-chat-time">${timeStr}</span>
+              </div>
+              <div class="msg-chat-preview">${contact ? contact + ' — ' : ''}${messageText}</div>
+              <div class="msg-chat-actions">
+                ${waLink ? `<a class="msg-action-btn msg-action-reply" href="${waLink}" target="_blank">💬 Reply on WhatsApp</a>` : ''}
+                ${d.read ? '' : `<button class="msg-action-btn msg-action-read" onclick="window.markMessageRead('${docSnap.id}')">Mark Read</button>`}
+                <button class="msg-action-btn msg-action-delete" onclick="window.deleteMessage('${docSnap.id}')">Delete</button>
+              </div>
+            </div>
+            ${d.read ? '' : '<span class="msg-unread-dot"></span>'}`;
+          list.appendChild(div);
+        });
+      });
+    }
+
+    window.markMessageRead = function(id) {
+      const { doc: docFn, setDoc } = window.FirebaseModules;
+      setDoc(docFn(window.db, 'messages', id), { read: true }, { merge: true });
+    };
+
+    window.deleteMessage = function(id) {
+      const { doc: docFn, deleteDoc } = window.FirebaseModules;
+      if (confirm('Delete this message?')) deleteDoc(docFn(window.db, 'messages', id));
+    };
+
+    // ========== ANALYTICS ==========
+    function trackVisit() {
+      if (!window.db || !window.FirebaseModules) { setTimeout(trackVisit, 300); return; }
+      const { doc: docFn, getDoc, setDoc } = window.FirebaseModules;
+      const today = new Date().toISOString().slice(0, 10);
+      getDoc(docFn(window.db, 'analytics', 'totalVisits')).then(snap => {
+        const current = (snap.exists() && typeof snap.data() === 'number') ? snap.data() : 0;
+        setDoc(docFn(window.db, 'analytics', 'totalVisits'), current + 1);
+      }).catch(() => {});
+      getDoc(docFn(window.db, 'analyticsDaily', today)).then(snap => {
+        const current = (snap.exists() && typeof snap.data() === 'number') ? snap.data() : 0;
+        setDoc(docFn(window.db, 'analyticsDaily', today), current + 1);
+      }).catch(() => {});
+    }
+
+    function loadAnalyticsData() {
+      if (!window.db || !window.FirebaseModules) return;
+      const { doc: docFn, getDoc, collection, onSnapshot } = window.FirebaseModules;
+      const today = new Date().toISOString().slice(0, 10);
+
+      getDoc(docFn(window.db, 'analytics', 'totalVisits')).then(snap => {
+        document.getElementById('statTotalVisits').textContent = snap.exists() ? snap.data() : 0;
+      });
+      getDoc(docFn(window.db, 'analyticsDaily', today)).then(snap => {
+        document.getElementById('statTodayVisits').textContent = snap.exists() ? snap.data() : 0;
+      });
+      onSnapshot(collection(window.db, 'projects'), (snap) => {
+        let count = 0; snap.forEach(() => count++);
+        document.getElementById('statProjectCount').textContent = count;
+      });
+      onSnapshot(collection(window.db, 'reviews'), (snap) => {
+        let count = 0; snap.forEach(d => { if (d.data().approved) count++; });
+        document.getElementById('statReviewCount').textContent = count;
+      });
+      onSnapshot(collection(window.db, 'messages'), (snap) => {
+        let count = 0; snap.forEach(() => count++);
+        document.getElementById('statMessageCount').textContent = count;
+      });
+
+      // Last 7 days
+      const dailyList = document.getElementById('dailyVisitsAdmin');
+      if (dailyList) {
+        const promises = [];
+        const dates = [];
+        for (let i = 6; i >= 0; i--) {
+          const d = new Date();
+          d.setDate(d.getDate() - i);
+          const key = d.toISOString().slice(0, 10);
+          dates.push(key);
+          promises.push(getDoc(docFn(window.db, 'analyticsDaily', key)));
+        }
+        Promise.all(promises).then(results => {
+          dailyList.innerHTML = results.map((snap, i) => `
+            <div class="project-item-admin">
+              <span>${dates[i]}</span>
+              <span><strong>${snap.exists() ? snap.data() : 0}</strong> visits</span>
+            </div>`).join('');
+        });
+      }
+    }
+
+    // ========== SEO SETTINGS ==========
+    const DEFAULT_SEO = {
+      title: 'NIMAH DEV STUDIO | Future Digital Experiences',
+      description: 'Professional websites, mobile applications, AI chatbots, and custom digital solutions.',
+      keywords: 'NIMAH DEV STUDIO, web development Sri Lanka, website development Sri Lanka, mobile app development Sri Lanka, AI chatbot development, custom software development, e-commerce website Sri Lanka, business website design, software development studio Sri Lanka, booking system development, school management system, admin dashboard development, custom website Sri Lanka, freelance web developer Sri Lanka, affordable website developer Sri Lanka, best web developer Sri Lanka, portfolio website design, hire web developer Sri Lanka, Firebase website developer, responsive website design Sri Lanka',
+      favicon: 'https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg',
+      ogImage: 'https://i.ibb.co/hj4wQK4/IMG-20260722-WA0000.jpg',
+      gaId: ''
+    };
+
+    function applySeoToPage(seo) {
+      document.title = seo.title || DEFAULT_SEO.title;
+      let descTag = document.querySelector('meta[name="description"]');
+      if (!descTag) {
+        descTag = document.createElement('meta');
+        descTag.name = 'description';
+        document.head.appendChild(descTag);
+      }
+      descTag.content = seo.description || DEFAULT_SEO.description;
+
+      let keywordsTag = document.querySelector('meta[name="keywords"]');
+      if (!keywordsTag) {
+        keywordsTag = document.createElement('meta');
+        keywordsTag.name = 'keywords';
+        document.head.appendChild(keywordsTag);
+      }
+      keywordsTag.content = seo.keywords || DEFAULT_SEO.keywords;
+
+      if (seo.favicon) {
+        let favTag = document.querySelector('link[rel="icon"]');
+        if (!favTag) {
+          favTag = document.createElement('link');
+          favTag.rel = 'icon';
+          document.head.appendChild(favTag);
+        }
+        favTag.href = seo.favicon;
+      }
+
+      if (seo.ogImage) {
+        let ogTag = document.querySelector('meta[property="og:image"]');
+        if (!ogTag) {
+          ogTag = document.createElement('meta');
+          ogTag.setAttribute('property', 'og:image');
+          document.head.appendChild(ogTag);
+        }
+        ogTag.content = seo.ogImage;
+      }
+
+      if (seo.gaId && !document.getElementById('gaScriptTag')) {
+        const gaScript = document.createElement('script');
+        gaScript.id = 'gaScriptTag';
+        gaScript.async = true;
+        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + seo.gaId;
+        document.head.appendChild(gaScript);
+        const gaInline = document.createElement('script');
+        gaInline.textContent = `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '${seo.gaId}');`;
+        document.head.appendChild(gaInline);
+      }
+    }
+
+    function loadSeoSettings() {
+      if (!window.db || !window.FirebaseModules) { setTimeout(loadSeoSettings, 200); return; }
+      const { doc: docFn, getDoc } = window.FirebaseModules;
+      getDoc(docFn(window.db, 'settings', 'seo')).then(snap => {
+        const seo = snap.exists() ? { ...DEFAULT_SEO, ...snap.data() } : DEFAULT_SEO;
+        applySeoToPage(seo);
+      }).catch(() => applySeoToPage(DEFAULT_SEO));
+    }
+
+    function loadSeoSettingsIntoForm() {
+      if (!window.db || !window.FirebaseModules) return;
+      const { doc: docFn, getDoc } = window.FirebaseModules;
+      getDoc(docFn(window.db, 'settings', 'seo')).then(snap => {
+        const seo = snap.exists() ? { ...DEFAULT_SEO, ...snap.data() } : DEFAULT_SEO;
+        document.getElementById('seoTitle').value = seo.title;
+        document.getElementById('seoDescription').value = seo.description;
+        document.getElementById('seoKeywords').value = seo.keywords;
+        document.getElementById('seoFavicon').value = seo.favicon;
+        document.getElementById('seoOgImage').value = seo.ogImage;
+        document.getElementById('seoGaId').value = seo.gaId;
+      });
+    }
+
+    window.saveSeoSettings = function() {
+      const seo = {
+        title: document.getElementById('seoTitle').value || DEFAULT_SEO.title,
+        description: document.getElementById('seoDescription').value || DEFAULT_SEO.description,
+        keywords: document.getElementById('seoKeywords').value || DEFAULT_SEO.keywords,
+        favicon: document.getElementById('seoFavicon').value,
+        ogImage: document.getElementById('seoOgImage').value,
+        gaId: document.getElementById('seoGaId').value
+      };
+      const { doc: docFn, setDoc } = window.FirebaseModules;
+      setDoc(docFn(window.db, 'settings', 'seo'), seo, { merge: true }).then(() => {
+        applySeoToPage(seo);
+        const msgEl = document.getElementById('seoMsg');
+        msgEl.textContent = 'SEO settings saved & applied!';
+        setTimeout(() => msgEl.textContent = '', 3000);
+      }).catch(() => alert('Error saving SEO settings'));
+    };
+
+    // ========== ADMIN USERS MANAGEMENT ==========
+    window.addAdminUser = function() {
+      const username = document.getElementById('newAdminUsername').value.trim();
+      const password = document.getElementById('newAdminPassword').value;
+      const msgEl = document.getElementById('userMsg');
+      if (!username || !password) { msgEl.textContent = 'Username and password required.'; msgEl.className = 'msg-text msg-error'; return; }
+      const { doc: docFn, setDoc } = window.FirebaseModules;
+      setDoc(docFn(window.db, 'adminUsers', username), { password }).then(() => {
+        msgEl.textContent = 'Admin user added!';
+        msgEl.className = 'msg-text msg-success';
+        document.getElementById('newAdminUsername').value = '';
+        document.getElementById('newAdminPassword').value = '';
+        setTimeout(() => msgEl.textContent = '', 3000);
+      }).catch(() => { msgEl.textContent = 'Error adding admin user.'; msgEl.className = 'msg-text msg-error'; });
+    };
+
+    function loadAdminUsersList() {
+      if (!window.db || !window.FirebaseModules) return;
+      const { collection, onSnapshot } = window.FirebaseModules;
+      onSnapshot(collection(window.db, 'adminUsers'), (snap) => {
+        const list = document.getElementById('adminUsersListAdmin');
+        if (!list) return;
+        if (snap.empty) {
+          list.innerHTML = '<p style="color:#94a3b8;text-align:center;">No admin users found.</p>';
+          return;
+        }
+        list.innerHTML = '';
+        snap.forEach(docSnap => {
+          const div = document.createElement('div');
+          div.className = 'project-item-admin';
+          const canDelete = docSnap.id !== currentAdminUser;
+          div.innerHTML = `
+            <span><strong>${docSnap.id}</strong></span>
+            ${canDelete ? `<button class="btn-delete" onclick="window.deleteAdminUser('${docSnap.id}')">Delete</button>` : '<span style="font-size:0.7rem;color:#94a3b8;">(current)</span>'}`;
+          list.appendChild(div);
+        });
+      });
+    }
+
+    window.deleteAdminUser = function(username) {
+      const { doc: docFn, deleteDoc } = window.FirebaseModules;
+      if (confirm('Delete admin user "' + username + '"?')) {
+        deleteDoc(docFn(window.db, 'adminUsers', username));
+      }
+    };
+
+    // ========== DARK / LIGHT MODE TOGGLE ==========
+    window.toggleLightDark = function() {
+      const isLight = document.body.classList.toggle('light-mode');
+      const btn = document.getElementById('themeToggleBtn');
+      if (btn) btn.textContent = isLight ? '☀️' : '🌙';
+    };
+
+    // ========== SECRET ADMIN ACCESS (2026 x 3) ==========
+    function triggerAdminReveal() {
+      document.body.style.transition = 'all 0.4s ease';
+      document.body.style.filter = 'brightness(1.5)';
+      setTimeout(() => {
+        document.body.style.filter = 'brightness(0.2)';
+        setTimeout(() => {
+          document.body.style.filter = '';
+          document.body.style.transition = '';
+          window.openAdminPanel();
+        }, 250);
+      }, 250);
+    }
+
+    let footerTapCount = 0;
+    let footerTapTimer = null;
+    function attachFooterTapListener() {
+      const trigger = document.getElementById('footerYearTrigger');
+      if (!trigger) return;
+      trigger.addEventListener('click', function() {
+        footerTapCount++;
+        clearTimeout(footerTapTimer);
+        footerTapTimer = setTimeout(() => { footerTapCount = 0; }, 1500);
+        if (footerTapCount >= 3) {
+          footerTapCount = 0;
+          clearTimeout(footerTapTimer);
+          triggerAdminReveal();
+        }
+      });
+    }
+
+    (function() {
+      let keySeq = [];
+      window.addEventListener('keydown', function(e) {
+        if (/^[0-9]$/.test(e.key)) {
+          keySeq.push(e.key);
+          if (keySeq.length > 12) keySeq = keySeq.slice(-12);
+          if (keySeq.slice(-12).join('') === '202620262026') {
+            keySeq = [];
+            triggerAdminReveal();
+          }
+        }
+      });
+
+      attachFooterTapListener();
+
+      // Easy access: open the site with ?admin=nimah2026 in the URL to open the admin panel directly
+      try {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('admin') === 'nimah2026') {
+          setTimeout(() => { window.openAdminPanel(); }, 400);
+        }
+      } catch (e) {}
+    })();
+  </script>
+</body>
+</html>
